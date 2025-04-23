@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 2000px;
+    position: relative;
+}
+.menu{
+    background-color: rgb(10, 181, 238);
+    color: #fff;
+    height: 70px;
+}
+.menu h1, p{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+.menu p{
+    margin-top: -15px;
+}
+.taptap {
+width: 1300px;
+margin-top: -47px;
+
+display:flex ;
+justify-content: flex-end;
+
+
+}
+.taptap button{
+    border: none;
+   text-decoration: none;
+   background-color: rgb(10, 181, 238);
+   color: #fff;
+   width: 80px;
+}
+.taptap button:hover{
+    color: orange;
+}
+.photo img{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    filter: brightness(70%)
+}
+.photo h1{
+    position: absolute;
+    top: 180px;
+    color: #ffffff;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.photo b{
+    color: orange;
+}
+.photo p{
+    width: 100%;
+    position: absolute;
+    top: 240px;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+.p2 {
+ color: #fff;
+ margin-top: 30px;
+
+ display: flex;
+ gap: 10px;
+ justify-content: center;
+ align-items: center;
+}
+.p2 b{
+    color: #fff;
+}
+.b32{
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+.p34{
+    margin-top: 60px;
+    width: 100%;
+    color: #cf3333;
+    font-size: large; 
+}
+.chast2{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+}
+.chast2 h4{
+    color: lightblue;
+}
+.c1 h3 {
+    float: right;
+    color: #000000;
+    position: absolute;
+    right: 910px;
+    top: 3px;
+    text-align: left;
+    
+}
+.c1 p{
+    padding-left: 130px;
+    text-align: left;
+    position: absolute;
+    right: 850px;
+    
+}
+.c1 i{
+    font-size: 40px;
+    background-color: rgb(10, 181, 238);
+    border-radius: 5px;
+
+}
+.c1{
+    width: 240px;
+    height: 180px;
+    text-align: left;
+}
+
+
+.c2 h3{
+    float: right;
+    color: black;
+    position: absolute;
+    right: 595px;
+    top: 3px;
+    text-align: left;
+}
+.c2 p{
+    padding-left: 130px;
+    text-align: left;
+    position: absolute;
+    right: 570px;
+       
+}
+.c2 i{
+    font-size: 40px;
+    background-color: rgb(10, 181, 238);
+    border-radius: 5px;
+}
+.c2{
+     width: 240px;
+     height: 180px;
+     text-align: left;
+}
+.c3 h3{
+    float: right;
+    color: black;
+    position: absolute;
+    right: 300px;
+    top: 3px;
+    text-align: left;
+}
+.c3 p{
+    padding-left: 130px;
+    text-align: left;
+    position: absolute;
+    right: 290px; 
+}
+.c3 i{
+    font-size: 40px;
+    background-color: rgb(10, 181, 238);
+    border-radius: 5px;
+}
+.c3{
+     width: 240px;
+     height: 180px;
+     text-align: left;
+}
+.c4 h3{
+    float: right;
+    color: black;
+    position: absolute;
+    right: 100px;
+    top: 3px;
+    text-align: left;
+}
+.c4 p{
+    padding-left: 130px;
+    text-align: left;
+    position: absolute;
+    right: 12px; 
+}
+.c4 i{
+    font-size: 40px;
+    background-color: rgb(10, 181, 238);
+    border-radius: 5px;
+}
+.c4{
+     width: 240px;
+     height: 180px;
+     text-align: left;
+}
+.cart{
+    position: absolute;
+    top: 800px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}

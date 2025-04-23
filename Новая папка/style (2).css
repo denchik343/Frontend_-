@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 2000px;
+    background-color: #cecece;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(5, 105, 110);
+    padding: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.logotype,  .menu-item, .menu-feetback{
+    float: left;
+}
+.menu-feetback{
+    float: right;
+}
+.logotype{
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    top: 1px;
+    top: 20px;
+}
+.menu-item{
+    position: relative;
+    left: 20%;
+    top: 25px; 
+}
+.menu-item a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 45px;
+    line-height: 1.5em;
+}
+.menu-item a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.menu-feetback button{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    color: rgb(5, 105, 110);
+   padding-top:4px;
+   margin-top: 25px;
+}
+.menu-feetback button:hover{
+    color: rgb(220, 114, 114);
+    background-color: black;
+    border: black solid 1px;
+}
+.main{
+    width: 23%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top:100px;
+    position: relative;
+    right: 350px;
+}
+.cart{
+    width: 350px;
+    height: 400px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 24px;
+   
+    position: relative;
+   top: -100px;
+}
+.cart_img{
+    width: 90%;
+}
+.cart_img img{
+    width: 90%;
+}
+.cart_content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart_content h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+}
+.ff1{
+    position: relative;
+    left: 50px;
+}
+.fg1{
+    position: relative;
+    left: 70px;
+    color: rgb(5, 105, 110);
+}
+
+.main2{
+    width: 23%;
+    height: 530px;
+    padding: 30px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top:100px;
+    position: relative;
+    right: -2px;
+    top: -580px;
+}
+.cart3{
+    width: 350px;
+    height: 400px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 24px;
+    position: relative;
+   top: -100px;
+   right: 23px;
+}
+.cart_img2{
+    width: 90%;
+}
+.cart_img2 img{
+    width: 90%;
+}
+.cart_content2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart_content2 h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+    position: relative;
+    left: 30px;
+    bottom: 220px;
+}
+.fdf2{
+    position: relative;
+    left: 36px;
+    
+}
+.fg2{
+    position: relative;
+    left: 87px;
+    color: rgb(5, 105, 110);
+}
+.fq1{
+    position: relative;
+    bottom: 220px;
+}
+
+.main3{
+    width: 23%;
+    height: 530px;
+    padding: 30px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top:100px;
+    position: relative;
+    left: 360px;
+    bottom: 1159px;
+
+}
+.cart4{
+    width: 350px;
+    height: 400px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 24px;
+    position: relative;
+   top: -17px;
+   right: 23px;
+}
+.cart_img3{
+    width: 90%;
+}
+.cart_img3 img{
+    width: 90%;
+}
+.cart_content3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart_content3 h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+    position: relative;
+    left: 57px;
+    bottom: 135px;
+
+}
+.fdf3{
+    position: relative;
+    left: 36px;
+   
+
+}
+.fg3{
+    position: relative;
+    left: 90px;
+    color: rgb(5, 105, 110);
+}
+.fq2{
+    position: relative;
+    bottom: 160px;
+}
+.ddd1{
+    position: relative;
+    left: 30px;
+}
+.ddd2{
+    position: relative;
+    left: 120px;
+    bottom: 160px;
+}
+.fg2{
+    position: relative;
+    left: 99px;
+}

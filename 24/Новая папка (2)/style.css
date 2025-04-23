@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    min-height: 2000px;
+}
+.menu{
+    width: 100%;
+    height: 72px;
+    background-color: rgb(216, 243, 252);
+    margin-top: -8px;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    width: 1450px;
+}
+.menu h1{
+    margin-top: -30px;
+    margin-left: 80px;
+}
+.box{
+    font-size: 50px;
+    margin-top: 5px;
+}
+.menu button{
+    border: none;
+    background-color: rgb(216, 243, 252) ;
+    width: 110px;
+    height: 70px;
+    margin-top: -63px;
+
+}
+.menu button:hover{
+    border: none;
+    background-color: rgb(47, 184, 230) ;
+    color: #fff;
+}
+.text{
+    color: #ffffff;
+    height: 130px;
+    padding-top: 25px;
+
+    display: block;
+    padding-left: 252px;
+}
+.content{
+    width: 99,9%;
+    height: 4000px;
+    background-color:rgb(100, 202, 236) ;
+}
+.photo{
+    position: relative;
+}
+.photo img{
+    width: 210px;
+    height: 200px;
+}
+.photoy{
+    display: flex;
+   justify-content: center;
+    gap: 40px;
+}
+.photo2{
+    position: relative;
+}
+.photo2 img{
+    width: 210px;
+    height: 200px;
+}
+.photoy2{
+    display: flex;
+   justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.p1{
+    position: absolute;
+    right: 1055px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+        
+}
+.p2{
+    position: absolute;
+    right: 804px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.p3{
+    position: absolute;
+    right: 545px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.p4{
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.p5{
+    position: absolute;
+    right: 1055px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.p6{
+    position: absolute;
+    right: 802px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.p7{
+    position: absolute;
+    right: 542px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.p8{
+    position: absolute;
+    right: 295px;
+    top: 100px;
+    font-size: 20px;
+    color: #fff;
+    
+}

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 2000px;
+}
+.menu{
+    width: 25%;
+    height: 600px;
+    background-color: chocolate;
+    color: white;
+    float: left;
+    padding: 20px;
+}
+.menu ul{
+    position: sticky;
+    top: 1px;
+}
+.menu ul a{
+    color: #fff;
+}
+.content{
+    float: right;
+    width: 70%;
+    height: auto;
+    background-color: aquamarine;
+}
+.content_text{
+    height: 400px;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content_text p{
+    position: sticky;
+    top: 10px;
+}
