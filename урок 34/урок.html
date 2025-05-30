@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Задания по JS</title>
+  <style>
+    body{
+            background-color: #fff;
+            color: #000;
+        }
+        #backgroundTheme {
+          width: max-content; 
+          border: 1px solid black; 
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+         #backgroundTheme button{
+            padding: 10px;
+            margin: 5px;
+         }
+    .highlight {
+      font-size: 16px;
+    }
+
+  
+   
+  </style>
+</head>
+<body>
+
+  <!-- Задание 1 -->
+  <h1 id="main-text">Это главный текст</h1>
+
+  <!-- Задание 2 -->
+  <p class="highlight">Первый важный абзац</p>
+  <p class="highlight">Второй важный абзац</p>
+  <p class="highlight">Третий важный абзац</p>
+
+
+  <button id="btn">Кнопка.</button>
+  <p id="message">Кнопка btn ещё не нажата.</p>
+
+  <button onclick="handleClick1()">Кнопка 2</button>
+
+  <div id="backgroundTheme">
+        <button id="darkTheme">Тёмная тема</button>
+        <button id="lightTheme">Светлая тема</button>
+  </div>
+
+
+    <button id="btn1">Нажми на меня!</button>
+    <p id="message1">Кнопка btn1 ещё не нажата.</p>
+
+
+     <button id="button2Theme">red</button>
+    <button id="button3Theme">green</button>
+    <button id="button4Theme">blue</button>
+<div id="div1">
+    <input type="text" id="nameInput" placeholder="Введите имя">
+    <form>  
+        <input type="submit" name="submit" value="Отправить имя" onclick="handleClick()">  
+    </form>  
+</div>
+
+
+
+
+
+    <script  src="урок.js"></script>
+</body>
+</html>

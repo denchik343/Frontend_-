@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+    body{
+        min-height: 2000px;
+        background-color: #dcdcdc;
+    }
+.обложка{
+    width:100%;
+    height: 100px;
+    background-color: black;
+} 
+.обложка h1{
+     color: #fff;
+}
+.button{
+    width: 1300px;
+    display: flex;
+    gap: 20px;
+    padding-top: 0px;
+
+    display: flex;
+    justify-content: flex-end;
+} 
+.обложка button{
+    color: #fff;
+    border: none;
+    background-color: black;
+    font-size: 20px; 
+} 
+.обложка button:hover{
+    text-decoration: underline;
+}
+.обложка a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+} 
+.обложка a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.photo img{
+    width: 400px;
+}
+
