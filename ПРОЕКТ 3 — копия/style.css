@@ -1,0 +1,1183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        overflow-x: hidden;
+}
+.site{
+    height: 5000px;
+}
+.menu{
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    height: 802px;
+}
+.menu h1{
+    color: white;
+    font-size: 60px;
+    padding-top: 110px;
+    padding-left: 68px;
+}
+.ImgBlock1 img{
+    width: 440px;
+    position: relative;
+    top: -185px;
+    left: 322px;
+}
+.ButtonsBlock{
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    margin-left: 591px;
+    margin-top: -246px;
+}
+.ButtonsBlock a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.ButtonsBlock button{
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    font-size: 14px;
+}
+.ButtonsBlock b{
+    color: rgb(110, 219, 212);
+}
+.UnknownButton {
+    border: 1px solid white;
+    width:180px ;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    left: 1210px;
+    top: 68px;
+}
+.TextInBlockH1 {
+    font-size: 200px;
+    text-align: center;
+    margin-top: -260px;
+}
+.ExploreButton {
+    color: rgb(0, 0, 0);
+    background-color:rgb(110, 219, 212) ;
+    width: 180px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-left: 675px;
+    margin-top: 40px;
+}
+.ImgBlock2 img{
+    width: 94px;
+    position: relative;
+    top: 110px;
+    left: 68px;
+}
+.menu p{
+    color: white;
+    margin-left: 185px;
+    padding-top: 68px;
+    font-size: 14px;
+}
+.ImgBlock3 img{
+    width: 440px;
+    position: relative;
+    top: -146px;
+    left: 800px;
+}
+.main{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(28, 28, 29);
+    margin-top: -10px;
+}
+.MainTextBlock p{
+    color: rgb(85, 162, 157);
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.MainTextBlock h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 170px;
+}
+.main img{
+    position: absolute;
+    width: 640px;
+    left: 390px;
+    top: 1040px;
+}
+.MainBlock1 {
+    width: 400px;
+    margin-left: 68px;
+    margin-top: 220px;
+    text-align: left;
+}
+.MainBlock1 i{
+    color:rgb(110, 219, 212) ;
+    font-size: 35px;
+}
+.MainBlock1 h1{
+    color: white;
+}
+.MainBlock1 p{
+    color: white;
+    margin-left: -4px;
+}
+
+.MainBlock2 {
+    width: 400px;
+    margin-left: 68px;
+    padding-top: 105px;
+}
+.MainBlock2 b{
+    color:rgb(110, 219, 212) ;
+    font-size: 35px;
+}
+.MainBlock2 h1{
+    color: white;
+}
+.MainBlock2 p{
+    color: white;
+    margin-left: -3px;
+}
+.MainBlock2 img{
+    width: 45px;
+    margin-top: 424px;
+    margin-left: -322px;
+}
+
+.MainBlock3 {
+    width: 300px;
+    margin-left: 1090px;
+    margin-top: -520px;
+    text-align: right;
+}
+.MainBlock3 i{
+    color:rgb(110, 219, 212) ;
+    font-size: 35px;
+}
+.MainBlock3 h1{
+    color: white;
+}
+.MainBlock3 p{
+    color: white;
+    margin-left: 20px;
+}
+
+.MainBlock4 {
+    width: 300px;
+    margin-top: 190px;
+    margin-left: 1090px;
+    text-align: right;
+    
+}
+.MainBlock4 i{
+    color:rgb(110, 219, 212) ;
+    font-size: 35px;
+}
+.MainBlock4 h1{
+    color: white;
+}
+.MainBlock4 p{
+    color: white;
+}
+.main hr{
+    width: 90%;
+    margin-left: 68px;
+    margin-top: 110px;
+}
+.ImgBrands img{
+    width: 1468px;
+    margin-top: 800px;
+    margin-left: -390px;
+}
+
+.BankAccountBlock{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.ImgCard1 img{
+    width: 560px;
+    padding-top: 49px;
+    margin-left:870px;
+}
+.ImgCard2{
+    
+    margin-top: -4px;
+    width: 100%;
+    height: 600px;
+}
+.ImgCard2 img{
+    width: 510px;
+    margin-left: 100px;
+    margin-top: 61px;
+}
+.BankAccountBlock p{
+    font-size: 40px;
+    position: absolute;
+    left: 860px;
+    top: 2800px;
+}
+.BankAccountBlock u{
+    color:rgb(110, 219, 212) ;
+    text-decoration: none;
+}
+.BrandsBlock{
+    margin-top: 600px;
+    background-color:rgb(28, 28, 29);
+    width: 50%;
+    height: 780px;
+}
+.BrandsBlock hr{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 68px;
+    background-color:  rgb(95, 95, 96);
+    height: 2px;
+    border: none;
+}
+.BrandsBlockP1 {
+    font-size: 38px;
+    margin-left: 68px;
+     color: rgb(95, 95, 96);
+}
+.BrandsBlockP2{
+    font-size: 23px;
+    margin-left: 68px;
+     color: rgb(95, 95, 96);
+}
+#P1{
+    color: white;
+}
+#P2{
+    color: white;
+    padding-top: 10px;
+}
+.ScrollBlock{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    position: relative;
+    left: 734px;
+    top: -734px;
+    width: 734px;
+    background-color: rgb(220, 220, 226);
+    height: 780px;
+    
+}
+.ScrollBlock img{
+    width: 210px;
+}
+.scrollBlock1{
+    padding-left: 120px;
+}
+.scrollBlock2{
+    margin-left: 120px;
+}
+.ImgAmazon{
+    margin-top: 20px;
+}
+.ImgWFM{
+    background-color: white;
+    border-radius: 27px;
+    width: 30px;
+    margin-top: 20px;
+}
+.ImgNetflix{
+    background-color: white;
+    border-radius: 27px;
+    width: 30px;
+}
+.ImgUberEats{
+    margin-top: 20px;
+}
+.ImgUber{
+    margin-top: 20px;
+}
+.CompareSection{
+    background-color: black;
+    width: 100%;
+    height: 2400px;
+}
+.CompareSection h1{
+    font-size: 105px;
+    padding-top: 140px;
+    color: white;
+}
+.CompareSection img{
+    width: 600px;
+    padding-top: 60px;
+    margin-left: 600px;
+}
+.SableSecuredP{
+    font-size: 27px;
+    color: rgb(95, 191, 185);
+    padding-left: 544px;
+}
+.SableDebitP{
+    font-size: 25px;
+    color: rgb(95, 191, 185);
+    position: relative;
+    left: 944px;
+    top: -65px;
+}
+.CompareBlock{
+    color: white;
+}
+.CompareBlock hr{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 68px;
+    background-color:  rgb(95, 95, 96);
+    height: 2px;
+    border: none;
+}
+.compare1{
+    margin-left: 68px;
+}
+
+.compare2{
+    margin-left: 68px;
+}
+
+.compare3{
+    margin-left: 68px;
+}
+
+.compare4{
+    margin-left: 68px;
+}
+
+.compare5{
+    margin-left: 68px;
+}
+
+.compare6{
+    margin-left: 68px;
+}
+.CompareBlock p{
+    position: relative;
+    top: 10px;
+}
+.CompareBlock i{
+    position: relative;
+    padding-left: 370px;
+    left: 170px;
+    font-size: 25px;
+    top: -7px;
+}
+.compare7{
+    margin-left: 68px;
+    display: flex;
+}
+.CompareP1{
+    font-size: 60px;
+    margin-top: -20px;
+}
+#Dollars1{
+    margin-left: 390px;
+}
+#Dollars2{
+    margin-left: 280px;
+}
+.CompareP2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Button1InCompareBlock{
+    background-color: rgb(104, 209, 202);
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    margin-top: 50px;
+    margin-left: 602px;
+}
+.Button1InCompareBlock:hover{
+    color: white;
+}
+.Button2InCompareBlock{
+    background-color: rgb(104, 209, 202);
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    margin-left: 217px;
+}
+.Button2InCompareBlock:hover{
+    color: white;
+}
+.estimation {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 5400px;
+    left: 800px;
+}
+
+
+
+.testimonials-container {
+    display: flex;
+    gap: 110px;
+    overflow-x: auto; 
+    padding: 20px;
+    scroll-behavior: smooth;
+    height: 500px;
+    position: relative;
+    top: -1000px;
+}
+.testimonials-container h1{
+    position: absolute;
+    font-size: 65px;
+    margin-left: 380px;
+}
+.testimonials-container i{
+    color: #208b7e;
+    font-family: cursive;
+}
+.testimonial-card1 {
+    margin-top: 140px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 68px;
+    width: 400px;
+    flex-shrink: 0; 
+    height: 250px;
+    background-color: rgb(28, 28, 29);
+}
+.testimonial-text1 {
+    font-size: 18px;
+    color: white;
+    padding-left: 130px;
+    padding-top: 15px;
+}
+.Card1Img img{
+    width: 30px;
+    position: relative;
+    left: 30px;
+    top: -145px;
+}
+.testimonial-card1 hr{
+    height: 3px;
+    background-color: white;
+    width: 60px;
+    margin-left: 130px;
+}
+.testimonial-card1 p{
+    color: white;
+    margin-top: -15px;
+    padding-left: 200px;
+}
+
+.testimonial-card2 {
+    margin-top: 140px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px; 
+    width: 400px;
+    flex-shrink: 0; 
+    height: 250px;
+    background-color: rgb(28, 28, 29);
+}
+.testimonial-text2 {
+    font-size: 18px;
+    color: white;
+    padding-left: 130px;
+    padding-top: 15px;
+}
+.Card2Img img{
+    width: 30px;
+    position: relative;
+    left: 30px;
+    top: -125px;
+}
+.testimonial-card2 hr{
+    height: 3px;
+    background-color: white;
+    width: 60px;
+    margin-left: 130px;
+    margin-top: 18px;
+}
+.testimonial-card2 p{
+    color: white;
+    margin-top:-13px ;
+    padding-left: 200px;
+}
+
+.testimonial-card3 {
+    margin-top: 140px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px; 
+    width: 400px;
+    flex-shrink: 0; 
+    height: 250px;
+    background-color: rgb(28, 28, 29);
+}
+.testimonial-text3 {
+    font-size: 18px;
+    color: white;
+    padding-left: 130px;
+    padding-top: 15px;
+}
+.Card3Img img{
+    width: 30px;
+    position: relative;
+    left: 30px;
+    top: -82px;
+}
+.testimonial-card3 hr{
+    height: 3px;
+    background-color: white;
+    width: 60px;
+    margin-left: 130px;
+    margin-top: 62px;
+}
+.testimonial-card3 p{
+    color: white;
+    margin-top:-15px ;
+    padding-left: 200px;
+}
+
+.testimonial-card4 {
+    margin-top: 140px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px; 
+    width: 400px;
+    flex-shrink: 0; 
+    height: 250px;
+    background-color: rgb(28, 28, 29);
+}
+.testimonial-text4 {
+    font-size: 18px;
+    color: white;
+    padding-left: 130px;
+    padding-top: 15px;
+}
+.Card4Img img{
+    width: 30px;
+    position: relative;
+    left: 30px;
+    top: -123px;
+}
+.testimonial-card4 hr{
+    height: 3px;
+    background-color: white;
+    width: 60px;
+    margin-left: 130px;
+    margin-top: 18px;
+}
+.testimonial-card4 p{
+    color: white;
+    margin-top:-13px ;
+    padding-left: 200px;
+}
+
+
+html, body {
+    scrollbar-color:rgb(28, 28, 29) #0d0d0d; 
+}
+.InformationAboutTheWebsite{
+    height: 1600px;
+    position: relative;
+    top: -900px;
+    background-color: black;
+}
+.InformationAboutTheWebsite img{
+    margin-left: 63px;
+    width: 1346px;
+}
+.SableCreditInformation{
+    color: white;
+}
+.InformationBlock1{
+margin-top: 110px;
+
+}
+.InformationBlock1 h1, p {
+margin-top: 10px;
+margin-left: 63px;
+}
+.InformationBlock1 u{
+    color: rgb(77, 154, 148);
+    text-decoration: none;
+}
+.InformationBlock2{
+    margin-left: 500px;
+    margin-top: -295px;
+}
+.InformationBlock2 h1{
+    margin-left: 60px;
+}
+.SABLE{
+    font-size: 105px;
+    position: relative;
+    left: 1130px;
+    top: -120px;
+}
+
+.IconsImgBlock img{
+    width: 400px;
+    margin-left: 530px;
+    margin-top: 30px;
+}
+#p5 {
+    margin-left: 1077px;
+    margin-top: -35px;
+    color: white;
+}
+.InformationAboutTheWebsite hr{
+    background-color: rgb(64, 66, 69);
+    height: 3px;
+    border: none;
+    margin-top: 120px ;
+    margin-bottom: 50px;
+}
+.PrivatyPolicy{
+    color: rgb(64, 66, 69);
+}
+
+
+@media (min-width:601px) and (max-width:1024px){
+    .site{
+        width: 100%;
+        border: 1px solid black;
+        
+    }
+    .menu{
+        width: 100%;
+    }
+    #SableH1{
+        font-size: 43px;
+        position: absolute;
+        left: -40px;
+        top: -20px;
+
+    }
+    .ImgBlock1 img{
+        width: 340px;
+        position: relative;
+        left: 140px;
+        top: -2px;
+    }
+    .ButtonsBlock{
+        position: relative;
+        left: -240px;
+        top: 191px;
+        display: flex;
+        gap: 30px;
+    }
+    .UnknownButton{
+        position: relative;
+        left: 765px;
+        top: 90px;
+    }
+    .TextInBlockH1{
+        position: relative;
+        text-align: center;
+        top: 350px;
+        left: -35px;
+    }
+    .ExploreButton{
+        position: relative;
+        top: 370px;
+        left: -275px;
+    }
+    .ImgBlock2 img{
+        position: relative;
+        top: 500px;
+        left: 30px;
+    }
+    .TextInBlockP{
+        position: relative;
+        top: 380px;
+        right: 60px;
+    }
+    .ImgBlock3 img{
+        width: 340px;
+        position: relative;
+        left: 505px;
+        top: 307px;
+    }
+    .main{
+        width:100%;
+        height: 1050px;
+    }
+    .MainTextBlock p{
+        position: relative;
+        right: 30px;
+    }
+    .main img{
+        width: 500px;
+        margin-left: -167px;
+        
+    }
+    .MainBlock1{
+        font-size: 10px;
+        margin-left: 30px;
+    }
+    .MainBlock2{
+        font-size: 10px;
+        margin-left: 30px;
+    }
+    .MainBlock2 img{
+        width: 45px;
+        margin-top: 364px;
+        margin-left: -363px;
+    }
+    .MainBlock3{
+        font-size: 10px;
+        position: relative;
+        right: 340px;
+        top: 110px;
+        width: 190px;
+    }
+       .MainBlock4{
+        font-size: 10px;
+        position: relative;
+        right: 450px;
+        top: 90px;
+    }
+    .main hr{
+        margin-top: 180px;
+        width: 94%;
+        position: relative;
+        right: 42px;
+    }
+    .ImgBrands img{
+        width: 970px;
+        margin-left: -387px;
+        margin-top: 680px;
+    }
+    .ImgCard1 img{
+        position: relative;
+        right: 420px;
+        top: 59px;
+        width: 500px;
+    }
+       .ImgCard2 img{
+        position: relative;
+        left: -75px;
+        top: 59px;
+        width: 500px;
+    }
+    .BankAccountBlock p{
+        width: 600px;
+        margin-left: -300px;
+        margin-top: -250px;
+        font-size: 35px;
+    }
+    .BrandsBlockP1 {
+        font-size: 30px;
+    }
+    .BrandsBlockP2{
+        font-size: 15px;
+    }
+    .ScrollBlock{
+        margin-left: -248px;
+        margin-top: 79px;
+        width: 487px;
+    }
+    .scrollBlock1{
+        position: relative;
+        right: 105px;
+    }
+    .scrollBlock2{
+        position: relative;
+        right: 65px;
+    }
+    .CompareSection h1{
+        font-size: 70px;
+    }
+    .CompareSection img{
+        margin-left: 400px;
+        width: 400px;
+    }
+    .CompareSection p{
+       font-size: 20px;
+       margin-left: -140px;
+    }
+    #SableDebitP2{
+        margin-left: -275px;
+    }
+    .CompareBlock p{
+        margin-left: -25px;
+    }
+    .CompareBlock hr{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .compare1 i{
+        margin-left: -150px;
+    }
+    .compare2 i{
+        margin-left: -150px;
+    }
+    .compare3 i{
+        margin-left: -150px;
+    }
+    .compare4 i{
+        margin-left: -150px;
+    }
+    .compare5 i{
+        margin-left: -150px;
+    }
+    .compare6 i{
+        margin-left: -150px;
+    }
+    #Dollars1{
+        font-size: 60px;
+        margin-left: 306px;
+        margin-right: 30px;
+    }
+    #Dollars2{
+        font-size: 60px;
+        margin-left: 137px;
+        margin-right: 30px;
+    }
+    .Button1InCompareBlock{
+        margin-left: 450px;
+    }
+    .Button2InCompareBlock{
+        margin-left: 70px;
+    }
+    .estimation{
+        margin-top: -350px;
+        margin-left: -200px;
+    }
+    .testimonials-container{
+        margin-top: -200px;
+    }
+    .InformationAboutTheWebsite img{
+        width: 920px;
+        margin-left: 33px;
+    }
+    .InformationBlock2{
+        margin-left: 250px;
+    }
+    .SABLE{
+        margin-left: -450px;
+    }
+    .IconsImgBlock img{
+        margin-top: 40px;
+        width: 300px;
+        margin-left: 300px;
+    }
+    #p5{
+        width: 400px;
+        position: relative;
+        right: 450px;
+    }
+    .PrivatyPolicy{
+        font-size: 11px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+@media  (min-width:0px) and (max-width:601px) {
+    .site{
+        width: 100%;
+        border: 1px solid black;
+        
+    }
+    .menu{
+        width: 100%;
+        height: 680px;
+    }
+    #SableH1{
+        font-size:26px;
+        position: absolute;
+        left: -62px;
+        top: -50px;
+
+    }
+    .ImgBlock1 img{
+        width: 200px;
+        position: relative;
+        left: 70px;
+        top: -3px;
+    }
+    .ButtonsBlock{
+        position: relative;
+        left: -430px;
+        top: 207px;
+        display: flex;
+        gap: 20px;
+        width: 250px;
+        
+    }
+    .UnknownButton{
+        position: relative;
+        left: 455px;
+        top: 135px;
+        width: 110px;
+        height: 40px;
+    }
+    .TextInBlockH1{
+        position: relative;
+        text-align: center;
+        top: 350px;
+        left: -35px;
+        
+    }
+    .ExploreButton{
+        position: relative;
+        top: 370px;
+        left: -480px;
+    }
+    .ImgBlock2 img{
+        position: relative;
+        top: 550px;
+        left: 3px;
+        width: 40px;
+    }
+    .TextInBlockP {
+        position: relative;
+        top: 445px;
+        right: 135px;
+    }
+    #Text{
+        font-size: 9px;
+    }
+    .ImgBlock3 img{
+        width: 200px;
+        position: relative;
+        left: 300px;
+        top: 365px;
+    }
+    .main{
+        width:100%;
+        height: 800px;
+    }
+    .MainTextBlock p{
+        position: relative;
+        right: 30px;
+    }
+    .MainTextBlock h1{
+        font-size: 30px;
+    }
+    .main img{
+        width: 300px;
+        margin-left: -267px;
+        margin-top: -140px;
+        
+    }
+    .MainBlock1{
+        font-size: 7px;
+        margin-left: 8px;
+    }
+    .MainBlock2{
+        font-size: 7px;
+        margin-left: 8px;
+        margin-top: -70px;
+    }
+    .MainBlock2 img{
+        width: 40px;
+        margin-top: 109px;
+        margin-left: -380px;
+    }
+    .MainBlock3{
+        font-size: 7px;
+        position: relative;
+        right: 720px;
+        top: 250px;
+        width: 190px;
+    }
+       .MainBlock4{
+        font-size: 7px;
+        position: relative;
+        right: 830px;
+        top: 140px;
+    }
+    .main hr{
+        margin-top: 180px;
+        width: 94%;
+        position: relative;
+        right: 50px;
+    }
+    .BankAccountBlock{
+        height: 502px;
+    }
+    .ImgBrands img{
+        width: 550px;
+        margin-left: -380px;
+        margin-top: 350px;
+    }
+    .ImgCard1 img{
+        position: relative;
+        right: 710px;
+        top: 59px;
+        width: 400px;
+    }
+       .ImgCard2 img{
+        position: relative;
+        left: -90px;
+        top: 70px;
+        width: 400px;
+    }
+    .BankAccountBlock p{
+        width: 600px;
+        margin-left: -540px;
+        margin-top: -735px;
+        font-size: 23px;
+    }
+    .BrandsBlock{
+        margin-top: 492px;
+        width: 100%;
+    }
+    .BrandsBlockP1 {
+        font-size: 30px;
+        margin-left: 7px;
+    }
+    .BrandsBlockP2{
+        font-size: 20px;
+        margin-left: 7px;
+    }
+     .BrandsBlock hr{
+        width: 95%;
+        margin-left: 7px;
+    }
+    .ScrollBlock{
+        margin-left: -733px;
+        margin-top: 843px;
+        width: 100%;
+        
+    }
+    .scrollBlock1{
+        position: relative;
+        right: 105px;
+    }
+    .scrollBlock2{
+        position: relative;
+        right: 8px;
+    }
+    .CompareSection{
+        margin-top: 779px;
+    }
+    .CompareSection h1{
+        font-size: 40px;
+    }
+    .CompareSection img{
+        margin-left: 270px;
+        width: 300px;
+    }
+    .CompareSection p{
+       font-size: 15px;
+       margin-left: -270px;
+    }
+    #SableDebitP2{
+        margin-left: -470px;
+        margin-top: 30px;
+    }
+    .CompareBlock p{
+        margin-left: -60px;
+    }
+    .CompareBlock hr{
+        width: 96%;
+        margin-left: 7px;
+    }
+    .compare1 i{
+        margin-left: -260px;
+    }
+    .compare2 i{
+        margin-left: -260px;
+    }
+    .compare3 i{
+        margin-left: -260px;
+    }
+    .compare4 i{
+        margin-left: -260px;
+    }
+    .compare5 i{
+        margin-left: -260px;
+    }
+    .compare6 i{
+        margin-left: -260px;
+    }
+    .compare7 {
+        width: 600px;
+    }
+    #Dollars1{
+        font-size: 60px;
+        margin-left: 250px;
+        margin-right: 60px;
+    }
+    #Dollars2{
+        font-size: 60px;
+        margin-left: 50px;
+        margin-right: 60px;
+    }
+    .Button1InCompareBlock{
+        margin-left: 310px;
+        width: 140px;
+    }
+    .Button2InCompareBlock{
+        margin-left: 10px;
+        width: 100px;
+    }
+    .estimation{
+        margin-top: -200px;
+        margin-left: -400px;
+    }
+    .testimonials-container{
+        margin-top: -200px;
+    }
+    .InformationAboutTheWebsite img{
+        width: 500px;
+        margin-left: 45px;
+    }
+    .InformationBlock2{
+        margin-left: 250px;
+    }
+    .SABLE{
+        margin-left: -765px;
+        margin-top: -70px;
+        font-size: 80px;
+    }
+    .IconsImgBlock img{
+        margin-top: 200px;
+        width: 300px;
+        margin-left: 140px;
+    }
+    #p5{
+        width: 400px;
+        position: relative;
+        right: 825px;
+        top: 70px;
+    }
+    .PrivatyPolicy{
+        font-size: 6.5px;
+        margin-top: 30px;
+        margin-left: 7px;
+    }
+}
+
+
+
+
+
+
+

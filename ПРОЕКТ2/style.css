@@ -1,0 +1,2016 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+    body{
+        min-height: 10350px;
+        overflow-x:hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+}
+
+.menu{
+    background-color: #d7f9efe5;
+    width: 100%;
+    height: 825px;
+}
+.divMenu1{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 20px;   
+}
+
+.menuImgH{
+    display: flex;
+}
+.menuImgH img{
+    position: absolute;
+    width:60px ;
+    top: 60px;
+    left: 68px;
+}
+.menuImgH h1{
+    position: absolute;
+    left: 130px;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ButtonsAndAInMenu{
+    position: absolute;
+    left:730px;
+    top: 70px;
+    display: flex;
+    gap: 30px;
+}
+.ButtonsAndAInMenu select{
+    border: 1px solid white;
+    font-size:15px;
+}
+.ButtonsAndAInMenu a{
+    text-decoration: none;
+    color: black;
+    font-size:15px;
+}
+.button1{
+    border:1px solid #000000e5;
+    width: 60px;
+    height: 40px;
+    background-color: #ffffffe5;
+    border-radius: 13px;
+    font-size:15px;
+    margin-top: -20px;
+    box-shadow: 3px 3px 3px 0px rgba(34, 60, 80, 0.28);
+}
+.button2{
+    border: 1px solid black;
+    background-color: rgb(255, 98, 0);
+    color: #ffffffe5;
+    border-radius: 13px;
+    height: 40px;
+    margin-top: -20px;
+    box-shadow: 3px 3px 3px 0px rgba(34, 60, 80, 0.28);
+    width: 130px;
+}
+.textInMenu{
+    position: absolute;
+    top: 200px;
+    left: 68px;
+}
+.textInMenu h1{
+    font-size: 90px;
+}
+.textInMenu i{
+     font-family: cursive;
+    color: #208b7e;
+}
+.p1InMenu {
+    position: absolute;
+    top: 360px;
+    font-size:17px;
+}
+.p2InMenu{
+    position: absolute;
+    top: 460px;
+    left: 220px;
+}
+.buttonInMenu2{
+    position: absolute;
+    top: 440px;
+    border: 1px solid black ;
+    background-color: rgb(255, 98, 0);
+     width: 200px;
+     height: 40px;
+     border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(34, 60, 80, 0.28);
+    color: white;
+}
+.buttonInMenu2:hover{
+    color: black;
+}
+.img2InMenu img{
+    width: 120px;
+    position: absolute;
+    top: 435px;
+    left: 220px;
+}
+.imgInMenu3 img{
+    position: absolute;
+    left: 918px;
+    top: 140px;
+    width: 550px;
+}
+
+.brands{
+    height: 600px;
+    width: 100%;
+}
+.brands h1{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 90px;
+}
+.brands i{
+     font-family: cursive;
+    color: #208b7e;
+}
+.brands img{
+    width: 210px;
+    position: absolute;
+    left: 800px;
+    top: 980px;
+}
+.IMGblock img{
+    margin-top: 150px;
+    margin-left: -720px;
+    width: 1300px;
+}
+
+.DirectMailContainer{
+    background-color:#f1fbf9e5;
+    width: 100%;
+    height: 703px;
+}
+.textInMailContainer h1{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 80px;
+}
+.textInMailContainer i{
+    font-family: cursive;
+    color: #208b7e;
+}
+.block1{
+    position: absolute;
+    text-align: center;
+    top: 1950px;
+    left: 150px;
+}
+.block1 h1{
+    font-size: 65px;
+}
+.block1 p{
+    color: rgb(84, 81, 81);
+}
+.block2 img{
+    width: 300px;
+    position: absolute;
+    top: 1850px;
+    left: 600px;
+}
+.block2 p{
+     color: rgb(84, 81, 81);
+     position: absolute;
+     top: 2120px;
+     left: 660px;
+}
+.block3{
+    position: absolute;
+    text-align: center;
+    top: 1950px;
+    left: 1070px;
+}
+.block3 h1{
+    font-size: 65px;
+}
+.block3 p{
+    color: rgb(84, 81, 81);
+}
+
+
+
+.PostPilotMakesContainer{
+    background-color: rgb(252, 242, 230);
+    width: 100%;
+    height: 2600px;
+}
+.PostPilotMakesContainer h1{
+    font-size: 65px;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 68px;
+    
+}
+.h1InContainer{
+    padding-right:1000px ;
+}
+.PostPilotMakesContainer i{
+    font-family: cursive;
+    color: #208b7e;
+}
+.Container1Makes h1{
+    text-align: left;
+}
+.Container1Makes i{
+     font-family: cursive;
+    color: #208b7e;
+}
+.PostPilotMakesContainer p{
+     color: rgb(84, 81, 81);
+     padding-left: 68px;
+     padding-top: 30px;
+}
+.blockMakes1{
+    border: 5px solid rgb(228, 211, 189);
+    border-radius: 20px;
+    width: 600px;
+    height: 180px;
+    margin-top: 60px;
+    margin-left: 68px;
+    padding-top: 20px;
+}
+.blockMakes1 img{
+    width: 50px;
+    position: absolute;
+    left: 132px;
+    top: 3057px;
+}
+.img2 img{
+    position: absolute;
+    width: 50px;
+    left:560px;
+    top: 3200px;
+}
+
+
+
+.Container2Makes h1{
+    text-align: left;
+    position: absolute;
+    left: 640px;
+    top: 3300px;
+}
+.pContainer{
+    width: 600px;
+    margin-left: 68px;
+    position: absolute;
+    top: 3660px;
+    left: 580px;
+}
+.blockMakes2{
+    border: 5px solid rgb(228, 211, 189);
+    border-radius: 20px;
+    width: 650px;
+    height: 200px;
+    margin-top: 520px;
+    margin-left: 714px;
+    padding-top: 20px;  
+}
+.blockMakes2 img{
+    width: 50px;
+    position: absolute;
+    left: 815px;
+    top: 3757px;
+}
+.img3 img{
+    position: absolute;
+    width: 50px;
+    left:1300px;
+    top: 3900px;
+}
+
+
+
+
+
+.Container3Makes h1{
+    margin-right: 1010px;
+}
+
+.blockMakes3{
+    border: 5px solid rgb(228, 211, 189);
+    border-radius: 20px;
+    width: 550px;
+    height: 215px;
+    margin-top: 80px;
+    margin-left: 68px;
+    padding-top: 20px;  
+}
+
+.blockMakes3 img{
+    width: 50px;
+    position: absolute;
+    left: 130px;
+    top: 4320px;
+}
+.img4 img{
+    position: absolute;
+    width: 80px;
+    left:500px;
+    top: 4480px;
+}
+.ButtonInMakesContainer{
+    border: 1px solid black;
+    background-color: rgb(255, 98, 0);
+    color: #ffffffe5;
+    border-radius: 13px;
+    height: 50px;
+    width: 200px;
+    margin-top: -20px;
+    box-shadow: 3px 3px 3px 0px rgba(34, 60, 80, 0.28);
+    margin-top: 100px;
+    margin-left: 68px;
+}
+.ButtonInMakesContainer:hover{
+    color: black;
+}
+.ContainerCards{
+    width: 100%;
+    height: 1200px;
+}
+.ContainerCardsH1 h1{
+    font-size: 65px;
+    margin-top: 120px;
+    text-align: center;
+}
+.ContainerCardsH1 i{
+    color: #208b7e;
+    font-size: 50px;
+    font-family: cursive;
+}
+.cards1{
+    width: 380px;
+    height: 470px;
+    border-radius: 10px;
+     background-color: rgb(252, 242, 230);
+     margin-left: 68px;
+     margin-top: 70px;
+}
+.cards1 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.cards1 p{
+    text-align: center;
+    padding-top:30px ;
+    color: rgb(84, 81, 81);
+}
+.cards1 img{
+    width: 340px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.cards2{
+    width: 380px;
+    height: 470px;
+    border-radius: 10px;
+    background-color: rgb(223, 248, 242);
+     margin-left: 540px;
+     margin-top: -470px;
+}
+.cards2 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.cards2 p{
+    text-align: center;
+    padding-top:30px ;
+    color: rgb(84, 81, 81);
+}
+.cards2 img{
+    width: 340px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.cards3{
+    width: 380px;
+    height: 470px;
+    border-radius: 10px;
+     background-color:rgb(237, 235, 255);
+     margin-left: 1025px;
+     margin-top: -470px;
+}
+.cards3 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.cards3 p{
+    text-align: center;
+    padding-top:30px ;
+    color: rgb(84, 81, 81);
+}
+.cards3 img{
+    width: 340px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+.cards4{
+    width: 380px;
+    height: 470px;
+    border-radius: 10px;
+     background-color:rgb(216, 242, 246);
+     margin-left: 68px;
+     margin-top: 90px;
+     
+}
+.cards4 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.cards4 p{
+    text-align: center;
+    padding-top:30px ;
+    color: rgb(84, 81, 81);
+}
+.cards4 img{
+    width: 340px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+.cards5{
+    width: 380px;
+    height: 470px;
+    border-radius: 10px;
+     background-color: rgb(251, 238, 235);
+     margin-left: 540px;
+     margin-top: -470px;
+     
+}
+.cards5 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.cards5 p{
+    text-align: center;
+    padding-top:30px ;
+    color: rgb(84, 81, 81);
+}
+.cards5 img{
+    width: 340px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+.cards6{
+    width: 380px;
+    height: 470px;
+    border-radius: 10px;
+    background-color: rgb(243, 242, 241);
+     margin-left: 1025px;
+     margin-top: -470px;
+}
+.cards6 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.cards6 p{
+    text-align: center;
+    padding-top:30px ;
+    color: rgb(84, 81, 81);
+}
+.cards6 img{
+    width: 340px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+.FastLaunchContainer{
+     background-color:#dbf5f1e5;
+     margin-top: 150px;
+     width: 100%;
+     height:600px;
+}
+.FastLaunchContainer h1{
+    font-size: 65px;
+    text-align: center;
+    padding-top: 100px;
+}
+.FastLaunchContainer i{
+     color: #208b7e;
+     font-size: 50px;
+     font-family: cursive;
+}
+
+
+
+
+
+.steps {
+    margin-top: 30px;
+    margin-left: 68px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.step-number {
+    font-size: 1.2em;
+    color: #b2bec3;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.step-number.active {
+    color: #008080;
+    font-family: cursive;
+}
+
+.step-content {
+    flex-grow: 1;
+}
+
+.step-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.step-details {
+    font-size: 1em;
+    color: #555;
+}
+
+.vertical-line {
+    border-left: 2px solid #008080;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.step-text-container {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+
+
+
+
+.testimonials-container {
+    display: flex;
+    gap: 110px;
+    overflow-x: auto; 
+    padding: 20px;
+    scroll-behavior: smooth; 
+    height: 500px;
+}
+.testimonials-container h1{
+    position: absolute;
+    font-size: 65px;
+    margin-left: 380px;
+}
+.testimonials-container i{
+    color: #208b7e;
+    font-family: cursive;
+}
+.testimonial-card1 {
+    margin-top: 140px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+  margin-left: 68px;
+    width: 300px;
+    flex-shrink: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+.testimonial-header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-info1 {
+    display: flex;
+    align-items: center;
+}
+
+.user-info1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.twitter-icon1 {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.handle {
+    font-size: 12px;
+    color: #555;
+}
+
+.testimonial-text1 {
+    font-size: 14px;
+    line-height: 1.4;
+}
+ .twitter-icon1 img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.testimonial-card2 {
+    margin-top: 140px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px; 
+    width: 300px;
+    flex-shrink: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 140px;
+}
+
+.testimonial-header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-info2 {
+    display: flex;
+    align-items: center;
+}
+
+.user-info2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.twitter-icon2 {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.handle {
+    font-size: 12px;
+    color: #555;
+}
+
+.testimonial-text2 {
+    font-size: 14px;
+    line-height: 1.4;
+}
+ .twitter-icon2 img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.testimonial-card3 {
+    margin-top: 140px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px; 
+    width: 300px;
+    flex-shrink: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 140px;
+}
+
+.testimonial-header3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-info3 {
+    display: flex;
+    align-items: center;
+}
+
+.user-info3 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.twitter-icon3 {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.handle {
+    font-size: 12px;
+    color: #555;
+}
+
+.testimonial-text3 {
+    font-size: 14px;
+    line-height: 1.4;
+}
+ .twitter-icon3 img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.testimonial-card4 {
+    margin-top: 140px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px; 
+    width: 300px;
+    flex-shrink: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 160px;
+}
+
+.testimonial-header4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-info4 {
+    display: flex;
+    align-items: center;
+}
+
+.user-info4 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.twitter-icon4 {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.handle {
+    font-size: 12px;
+    color: #555;
+}
+
+.testimonial-text4 {
+    font-size: 14px;
+    line-height: 1.4;
+}
+ .twitter-icon4 img {
+    width: 20px;
+    height: 20px;
+}
+
+.testimonial-button {
+    border: 1px solid black;
+    background-color: rgb(255, 98, 0);
+    color: #ffffffe5;
+    border-radius: 13px;
+    height: 50px;
+    width: 200px;
+    margin-top: -20px;
+    box-shadow: 3px 3px 3px 0px rgba(34, 60, 80, 0.28);
+    margin-top: 100px;
+    margin-left: 68px;
+    position: absolute;
+    top: 7200px;
+    left: 560px;
+}
+
+.testimonial-button:hover{
+    color: black;
+}
+.PostCardBlock {
+    margin-top: 100px;
+    width: 100%;
+    height: 850px;
+    background-color:rgb(237, 235, 255);
+}
+.PostCardBlock img{
+    padding: 90px;
+    
+}
+.PostCardBlock h1{
+    font-size: 65px;
+    text-align: left;
+    position: relative;
+    left: 700px;
+    top: -610px;
+}
+.PostCardBlock i{
+    color: #208b7e;
+    font-family: cursive;
+}
+.PostCardBlock p{
+    position: relative;
+    left: 700px;
+    top: -580px;
+}
+.TextInPostCardBlock{
+    font-size: 23px;
+}
+.VeryStrangeText{
+    position: absolute;
+}
+.PostCardBlock h2{
+    font-size: 50px;
+}
+.sales {
+    display: flex;
+    gap: 10px;
+   
+}
+.sales h2{
+    position: relative;
+    left: 690px;
+    top: -530px;
+}
+.sales p{
+    position: relative;
+    left: 538px;
+    top: -470px;
+}
+.Button{
+    border: 1px solid black;
+    background-color: white ;
+    color: black;
+    border-radius: 13px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 3px 3px 3px 0px rgba(34, 60, 80, 0.28);
+    position: absolute;
+    left: 700px;
+    top: 8130px;
+    font-size: 17px;
+}
+.Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.image-button{
+    position: absolute;
+    left: 700px;
+    top: 8220px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+}
+.image-button img{
+    position: relative;
+    top: -92px;
+    right: 91px;
+    width: 260px;
+}
+.image-button:hover{
+    box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+}
+.image-button2{
+    position: absolute;
+    left: 860px;
+    top: 8220px;
+    width: 160px;
+    height: 30px;
+    border: 1px solid black;
+}
+.image-button2 img{
+    position: relative;
+    top: -94px;
+    right: 91px;
+    width: 340px;
+}
+.image-button2:hover{
+    box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+}
+.image-button3{
+    position: absolute;
+    left: 1080px;
+    top: 8223px;
+    width: 77px;
+    height: 27px;
+    border: 1px solid black;
+}
+.image-button3 img{
+    position: relative;
+    top: -94px;
+    right: 91px;
+    width: 260px;
+}
+.image-button3:hover{
+    box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+}
+.image-button4{
+    position: absolute;
+    left: 1220px;
+    top: 8223px;
+    width: 180px;
+    height: 27px;
+    border: 1px solid black;
+}
+.image-button4 img{
+    position: relative;
+    top: -96px;
+    right: 91px;
+    width: 360px;
+}
+.image-button4:hover{
+    box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+}
+.ImgSlaider {
+    width: 950px;
+    position: relative;
+    left: 575px;
+    top: -420px;
+}
+
+
+.Risk-Free-Container{
+    width: 100%;
+    height: 559.9px;
+    background-color: rgb(255, 109, 43);
+}
+.Risk-Free-Container h1{
+    color: white;
+    font-size: 65px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.Risk-Free-Container p{
+    color: white;
+    
+    padding-left: 60px;
+}
+.TextInRisk-Free-Container{
+    padding-top: 20px;
+    font-size: 17px;
+}
+.Risk-Free-Container button{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    color: #000000e5;
+    border-radius: 13px;
+    height: 52px;
+    margin-top: -20px; 
+    box-shadow: 3px 3px 3px 0px rgba(34, 60, 80, 0.28);
+    width: 150px;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 50px;
+    left: 59px;
+}
+.Risk-Free-Container button:hover{
+    color: white;
+    background-color: black;
+}
+.Risk-Free-Container img{
+    width: 130px;
+    position: absolute;
+    left: 240px;
+    top: 8645px;
+}
+.EstimationInRisk-Free-Container {
+    position: absolute;
+    left: 183px;
+    top: 8670px;
+}
+.BrandRevenueInRisk-Free-Container {
+    position: absolute;
+    top: 8730px;
+    font-size: 13px;
+}
+.ImgElement2 img{
+    width: 550px;
+    left: 700px;
+    top: 8338px;
+}
+.TrendsContainer{
+    background-color: rgb(242, 249, 249);
+    width: 100%;
+    height: 700px;
+}
+.TrendsContainer h1{
+    font-size: 65px;
+    text-align: center;
+    padding-top:30px ;
+}
+.TrendsContainer i{
+    font-size: 65px;
+    color: #208b7e;
+    font-family: cursive;
+}
+.TrendsBlock1{
+    padding-top: 70px;
+    padding-left: 68px;
+}
+.TrendsBlock1 img{
+    width: 400px;
+}
+.TrendsBlock1 p{
+    font-size: 28px;
+}
+.TrendsBlock2{
+    text-align: left;
+    margin-top: -335px;
+    margin-left: 535px;
+}
+.TrendsBlock2 img{
+    width: 400px;
+}
+.TrendsBlock2 p{
+    font-size: 28px;
+}
+.TrendsBlock3{
+    margin-left: 1000px;
+    margin-top: -365px;
+}
+.TrendsBlock3 img{
+    width: 400px;
+}
+.TrendsBlock3 p{
+    font-size: 28px;
+}
+.ImgBlock1 img{
+    width: 280px;
+    padding-top: 68px;
+    padding-left: 68px;
+}
+.P1InContainer{
+    padding-left: 68px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.CompanyBlock1{
+    position: absolute;
+    left: 550px;
+    top: 9660px;
+    display: block;
+    width: 160px;
+}
+.CompanyBlock1 h1{
+    font-size: 20px;
+}
+.CompanyBlock1 button{
+    color: black;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.CompanyBlock1 button:hover{
+    text-decoration: underline;
+}
+.CompanyBlock2{
+    position: absolute;
+    left: 820px;
+    top: 9686px;
+    display: block;
+    width: 230px;
+}
+.CompanyBlock2 h1{
+    font-size: 20px;
+}
+
+.CompanyBlock2 button{
+    color: black;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.CompanyBlock2 button:hover{
+    text-decoration: underline;
+}
+
+.CompanyBlock3{
+    position: absolute;
+    left: 1100px;
+    top: 9657px;
+    display: block;
+    width: 400px;
+}
+.CompanyBlock3 h1{
+    font-size: 20px;
+}
+.CompanyBlock3 p{
+    color: black;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 46px;
+}
+.B1{
+    color: rgb(0, 0, 0);
+    font-size: 25px; 
+}
+.B2{
+    
+    color: red;
+}
+.CompanyPricingContactContainer hr{
+    margin-top: 180px;
+    width: 90%;
+    margin-left: 68px;
+}
+.ImgBlock2 {
+    display: flex;
+}
+.ImgBlock2 img{
+    width: 150px;
+    padding-left: 68px;
+    padding-top: 58px;
+}
+.ImgBlock2 h1{
+    padding-top: 68px;
+}
+.PInBlock{
+    padding-left: 68px;
+    padding-top: 5px;
+}
+.Button1InContainer{
+    border: 1px solid;
+    width: 100px;
+    height: 50px;
+    background-color:white ;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+    position: absolute;
+    left: 1080px;
+    top: 10260px;
+}
+
+.Button2InContainer{
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color:  rgb(255, 98, 0);
+    font-size: 20px;
+    color: white;
+    box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+    position: absolute;
+    left: 1190px;
+    top: 10260px;
+}
+
+
+
+@media (min-width:601px) and (max-width:1024px){
+    .site{
+        width:962px;
+    }
+    .menu{
+        height: 526px;
+    }
+    .divMenu1{
+        width: 1070px;
+    }
+    .menuImgH img{
+        margin-left: -30px;
+    }
+    .ButtonsAndAInMenu{
+        margin-left: -370px;
+        width: 700px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .textInMenu h1{
+        margin-left: -30px;
+    }
+    .textInMenu h1{
+        font-size: 48px;
+    }
+    .p1InMenu{
+        margin-top: -160px;
+        width:500px;
+        font-size: 15px;
+        margin-left: -30px;
+    }
+    .buttonInMenu2{
+        margin-top: -170px;
+        margin-left: -30px;
+    }
+    .img2InMenu img{
+        margin-top: -170px;
+        margin-left: -30px;
+    }
+    .p2InMenu{
+        margin-top: -170px;
+        margin-left: -30px;
+    }
+    .imgInMenu3 img{
+        margin-left: -266px;
+        width: 310px;
+    }
+    .brands{
+        height: 500px;
+    }
+    .brands img{
+        width: 900px;
+        margin-left: -760px;
+        margin-top: -90px;
+    }
+    .block1{
+        margin-top: -400px;
+        margin-left: -110px;
+    }
+    .block2 img{
+        margin-top: -400px;
+        margin-left: -250px;
+    }
+    .block2 p{
+        margin-top: -400px;
+        margin-left: -260px;
+    }
+    .block3{
+        margin-top: -400px;
+        width: 400px;
+        margin-left: -455px;
+    }
+    .PostPilotMakesContainer {
+        height: 2500px;
+    }
+    .PostPilotMakesContainer h1{
+        margin-left: -70px;
+    }
+    .Container1Makes{
+        margin-left: -30px;
+    }
+    .h1InContainer {
+        position: relative;
+        left: 65px;
+        width: 1500px;
+    }
+    .blockMakes1 img{
+        margin-top: -400px;
+    }
+
+    .Container2Makes{
+        margin-left: -420px;
+        margin-top: -60px;
+    }
+    .h1InContainer2{
+        margin-top: -500px;
+        position: relative; 
+    }
+    #H1{
+        width: 900px;
+        margin-top: -400px;
+        margin-left: -420px;
+        font-size: 50px;
+    }
+    #Text1{
+        margin-left: -420px;
+        margin-top: -450px;
+    }
+    .blockMakes2 img{
+        margin-top: -460px;
+        margin-left: -455px;
+    }
+    .Container3Makes{
+        margin-top: 65px;
+    }
+    .h1InContainer3{
+        width: 500px;
+        position: relative;
+        left: 22px; 
+        
+    }
+    #Text2{
+        
+        margin-left: -26px;
+    }
+    .blockMakes3{
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .Container3Makes img{
+        margin-top: -430px;
+        margin-left: -25px;
+    }
+    .ContainerCardsH1 h1{
+        font-size: 60px;
+    }
+    .cards1,
+    .cards2,
+    .cards3,
+    .cards4,
+    .cards5,
+    .cards6 {
+        width: 50%;
+        float: left;
+        margin-left: 0; 
+        margin-top: 10px;
+        box-sizing: border-box; 
+        padding: 10px; 
+    }
+    .CardsBlock1{
+        width: 600px;
+        display: flex;
+        gap: 40px;
+    }
+    .CardsBlock1 img{
+        width: 300px;
+        margin-left: -25px;
+    }
+    .CardsBlock1 h1{
+        font-size: 25px;
+    }
+    .CardsBlock1 p{
+        font-size: 15px;
+    }
+    .CardsBlock2{
+        width: 600px;
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+    }
+    .CardsBlock2 img{
+        width: 300px;
+        margin-left: -25px;
+    }
+    .CardsBlock2 h1{
+        font-size: 25px;
+    }
+    .CardsBlock2 p{
+        font-size: 15px;
+    }
+    
+    .FastLaunchContainer{
+        margin-top: -20px;
+    }
+    .FastLaunchContainer h1{
+        font-size: 48px;
+    }
+    .testimonials-container h1{
+        margin-left: 120px;
+        width: 900px;
+    }
+    .testimonial-button{
+        margin-top: -450px;
+        margin-left: -150px;
+    }
+    .PostCardBlock{
+        height: 600px;
+    }
+    .PostCardBlock img{
+        margin-top: 0px;
+        margin-left: -60px;
+        width: 600px;
+    }
+    .PostCardBlock h1{
+        margin-top: 100px;
+        margin-left: -195px;
+    }
+    #Text3{
+        font-size: 40px;
+    }
+    .TextInPostCardBlock{
+        font-size: 13px;
+        margin-left: -195px;
+    }
+    .sales{
+        font-size: 10px;
+        margin-left: -100px;
+    }
+     .sales h2{
+        font-size: 30px;
+        position: relative;
+        margin-left: -90px;
+        margin-top: -30px;
+    }
+      .sales p{
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+    #Text1P{
+        margin-left: 50px;
+    }
+    #H2{
+        margin-left: -30px;
+    }
+    .Button{
+        margin-top: -860px;
+        margin-left: -200px;
+    }
+    .image-button{
+        margin-top: -850px;
+        width: 15px;
+        margin-left: -195px;
+    }
+    .image-button img{
+      width: 260px;
+    }
+     .image-button2{
+        margin-top: -850px;
+        width: 35px;
+        margin-left: -260px;
+    }
+    .image-button2 img{
+      width: 328px;
+      margin-top: 3px;
+    }
+     .image-button3{
+        margin-top: -850px;
+        width: 40px;
+        margin-left: -345px;
+    }
+    .image-button3 img{
+      width: 270px;
+      margin-left: -35px;
+    }
+     .image-button4{
+        margin-top: -850px; 
+        width: 50px;
+        margin-left: -360px;
+    }
+    .image-button4 img{
+      width: 340px;
+      margin-top: 4px;
+    }
+    .ImgElement1 img{
+        margin-top: -925px;
+        margin-left: -30px;
+    }
+    .EstimationInRisk-Free-Container{
+        margin-top: -925px;
+        margin-left: -10px;
+    }
+    .Risk-Free-Container h1{
+        margin-left: -30px;
+        font-size: 60px;
+    }
+    .Risk-Free-Container p{
+        margin-left: -30px;
+        font-size: 15px;
+    }
+    .Risk-Free-Container button{
+        margin-left: -30px;
+        margin-top: 60px;
+    }
+     .BrandRevenueInRisk-Free-Container {
+        margin-top: -940px;
+        font-size: 10px;
+        width: 500px;
+    }
+    #BrandText{  
+        font-size: 10px;
+    }
+    .TrendsBlock1,
+    .TrendsBlock2,
+    .TrendsBlock3 {
+        width: 50%; 
+        float: left; 
+        margin-left: 0; 
+        margin-top: 10px;
+        box-sizing: border-box;
+        padding: 10px; 
+        text-align: center;
+    }
+    .ImgElement2 img{
+        margin-top: -918.5px;
+        margin-left: -300px;
+    }
+    .TrendsBlock1 img{
+        width: 250px;
+    }
+    .TrendsBlock2 img{
+        width: 250px;
+    }
+    .TrendsBlock3 img{
+        width: 250px;
+        margin-left: 360px;
+    }
+    .TrendsBlock3 p{
+        width: 400px;
+        margin-left: 280px;
+    }
+    .ImgBlock1 img{
+        margin-left: -520px;
+    }
+    .P1InContainer{
+        margin-left: -30px;
+        font-size: 16px;
+    }
+    .CompanyBlock1{
+        margin-top: -880px;
+        margin-left: -200px;
+        width: 115px;
+    }
+    .CompanyBlock1 h1{
+       font-size: 15px;
+    }
+    .CompanyBlock1 button{
+       font-size: 15px;
+    }
+    .CompanyBlock2{
+        margin-top: -886px;
+        margin-left: -320px;
+        width: 140px;
+    }
+    .CompanyBlock2 button{
+       font-size: 15px;
+    }
+    .CompanyBlock3{
+        margin-top: -884px;
+        margin-left: -420px;
+    }
+    .CompanyBlock3 h1{
+       font-size: 15px;
+    }
+    .CompanyBlock3 p{
+       font-size: 15px;
+    }
+    .CompanyPricingContactContainer hr{
+        width: 90%;
+        margin-left: 56px;
+    }
+    .Button1InContainer{
+        margin-left: -425px;
+        margin-top: -930px;
+    }
+    .Button2InContainer{
+        margin-left: -425px;
+        margin-top: -930px;
+    }
+}
+
+
+
+
+
+@media (min-width:0px) and (max-width:601px){
+    .site{
+        width:869px;
+    }
+    .menu{
+        height: 526px;
+    }
+    .divMenu1{
+        width: 1070px;
+    }
+    .menuImgH h1{
+        margin-left: -55px;
+    }
+    .menuImgH img{
+        margin-left: -60px;
+    }
+    .ButtonsAndAInMenu{
+        margin-left: -453px;
+        width: 700px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .textInMenu h1{
+        margin-left: -60px;
+    }
+    .textInMenu h1{
+        font-size: 50px;
+        width: 500px;
+    }
+    .p1InMenu{
+        margin-top: -160px;
+        width:500px;
+        font-size: 16px;
+        margin-left: -60px;
+    }
+    .buttonInMenu2{
+        margin-top: -170px;
+        margin-left: -60px;
+    }
+    .img2InMenu img{
+        margin-top: -170px;
+        margin-left: -60px;
+    }
+    .p2InMenu{
+        margin-top: -170px;
+        margin-left: -60px;
+    }
+    .imgInMenu3 img{
+        margin-left: -360px;
+        width: 310px;
+    }
+    .brands{
+        height: 500px;
+    }
+    .brands img{
+        width: 850px;
+        margin-left: -790px;
+        margin-top: -90px;
+    }
+    .block1{
+        margin-top: -350px;
+        margin-left: -140px;
+        font-size: 15px;
+    }
+     .block1 h1{
+        font-size: 45px;
+    }
+    .block2 img{
+        margin-top: -400px;
+        margin-left: -300px;
+    }
+    .block2 p{
+        margin-top: -400px;
+        margin-left: -300px;
+    }
+    .block3{
+        font-size: 15px;
+        margin-top: -350px;
+        width: 400px;
+        margin-left: -505px;
+    }
+    .block3 h1{
+        font-size: 45px;
+    }
+    .PostPilotMakesContainer {
+        height: 2500px;
+    }
+    .PostPilotMakesContainer h1{
+        margin-left: -80px;
+        font-size: 64px;
+        width: 950px;
+    }
+    .Container1Makes{
+        margin-left: -60px;
+    }
+    .h1InContainer {
+        position: relative;
+        left: 80px;
+        width: 1500px;
+    }
+    .blockMakes1 img{
+        margin-top: -340px;
+        margin-left: -60px;
+    }
+
+    .Container2Makes{
+        margin-left: -512px;
+        margin-top: -60px;
+    }
+    .h1InContainer2{
+        margin-top: -500px;
+        position: relative; 
+    }
+    #H1{
+        width: 900px;
+        margin-top: -320px;
+        margin-left: -510px;
+        font-size: 50px;
+    }
+    #Text1{
+        margin-left: -515px;
+        margin-top: -390px;
+    }
+    .blockMakes2 img{
+        margin-top: -400px;
+        margin-left: -550px;
+    }
+    .Container3Makes{
+        margin-top: 65px;
+        margin-left: -32px;
+    }
+    .h1InContainer3{
+        width: 500px;
+        position: relative; 
+        left: -200px;
+    }
+    #Text2{
+        margin-left: -26px;
+    }
+    .blockMakes3{
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .Container3Makes img{
+        margin-top: -430px;
+        margin-left: -25px;
+    }
+    .ButtonInMakesContainer{
+        margin-top: 50px;
+    }
+    .ContainerCardsH1 h1{
+        font-size: 50px;
+    }
+    .cards1,
+    .cards2,
+    .cards3,
+    .cards4,
+    .cards5,
+    .cards6 {
+        width: 43.5%;
+        height: 430px;
+        float: left;
+        margin-left: 0; 
+        margin-top: 10px;
+        box-sizing: border-box; 
+        padding: 10px; 
+    }
+    .CardsBlock1{
+        width: 600px;
+        display: flex;
+        gap: 40px;
+    }
+    .CardsBlock1 img{
+        width: 281px;
+        margin-left: -40px;
+    }
+    .CardsBlock1 h1{
+        font-size: 25px;
+    }
+    .CardsBlock1 p{
+        font-size: 12px;
+    }
+    .CardsBlock2{
+        width: 600px;
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+    }
+    .CardsBlock2 img{
+        width: 281px;
+        margin-left: -40px;
+    }
+    .CardsBlock2 h1{
+        font-size: 25px;
+    }
+    .CardsBlock2 p{
+        font-size: 12px;
+    }
+    
+    .FastLaunchContainer{
+        margin-top: -20px;
+    }
+    .FastLaunchContainer h1{
+        font-size: 48px;
+    }
+    .testimonials-container h1{
+        margin-left: 70px;
+        width: 900px;
+    }
+    .testimonial-button{
+        margin-top: -450px;
+        margin-left: -225px;
+    }
+    .PostCardBlock{
+        height: 600px;
+    }
+    .PostCardBlock img{
+        margin-top: 0px;
+        margin-left: -85px;
+        width: 600px;
+    }
+    .PostCardBlock h1{
+        margin-top: 100px;
+        margin-left: -220px;
+        font-size: 40px;
+    }
+    .TextInPostCardBlock{
+        font-size: 13px;
+        margin-left: -220px;
+    }
+    .sales{
+        font-size: 10px;
+        margin-left: -105px;
+    }
+     .sales h2{
+        font-size: 30px;
+        position: relative;
+        margin-left: -110px;
+        margin-top: -30px;
+    }
+      .sales p{
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    #Text1P{
+        margin-left: 50px;
+    }
+    #H2{
+        margin-left: -30px;
+    }
+    .Button{
+        margin-top: -860px;
+        margin-left: -230px;
+    }
+    .image-button{
+        margin-top: -849px;
+        width: 80px;
+        margin-left: -597px;
+    }
+    .image-button img{
+      width: 270px;
+      margin-left: -2px;
+    }
+     .image-button2{
+        margin-top: -849px;
+        width: 33px;
+        margin-left: -530px;
+    }
+    .image-button2 img{
+      width: 333px;
+      margin-top: 3px;
+    }
+     .image-button3{
+        margin-top: -848px;
+        width: 40px;
+        margin-left: -590px;
+    }
+    .image-button3 img{
+      width: 272px;
+      margin-left: -35px;
+      
+    }
+     .image-button4{
+        margin-top: -850px; 
+        width: 50px;
+        margin-left: -540px;
+    }
+    .image-button4 img{
+      width: 357px;
+      margin-top: 4px;
+    }
+    .Risk-Free-Container{
+        height: 500px;
+    }
+    .ImgElement1 img{
+        margin-top: -925px;
+        margin-left: -30px;
+    }
+    .EstimationInRisk-Free-Container{
+        margin-top: -925px;
+        margin-left: -10px;
+        width: 200px;
+    }
+    .Risk-Free-Container h1{
+        margin-left: -30px;
+        font-size: 56px;
+    }
+    .Risk-Free-Container p{
+        margin-left: -30px;
+        font-size: 15px;
+    }
+    .Risk-Free-Container button{
+        margin-left: -30px;
+        margin-top: 60px;
+        
+    }
+    .ImgElement2 img{
+        margin-top: -918.5px;
+        margin-left: -320px;
+        width: 490px;
+    }
+    .BrandRevenueInRisk-Free-Container {
+        margin-top: -940px;
+        font-size: 10px;
+        width: 500px;
+    }
+    #BrandText{  
+        font-size: 10px;
+    }
+    .TrendsBlock1,
+    .TrendsBlock2,
+    .TrendsBlock3 {
+        width: 50%; 
+        float: left; 
+        margin-left: 0; 
+        margin-top: 10px;
+        box-sizing: border-box;
+        padding: 10px; 
+        text-align: center;
+    }
+    .TrendsBlock1 img{
+        width: 250px;
+    }
+    .TrendsBlock2 img{
+        width: 250px;
+    }
+    .TrendsBlock3 img{
+        width: 250px;
+        margin-left: 300px;
+    }
+    .TrendsBlock3 p{
+        width: 400px;
+        margin-left: 220px;
+    }
+    .ImgBlock1 img{
+        margin-left: -500px;
+        width: 250px;
+    }
+    .P1InContainer{
+        margin-left: -60px;
+        font-size: 14px;
+    }
+    .CompanyBlock1{
+        margin-top: -920px;
+        margin-left: -260px;
+        width: 125px;
+    }
+    .CompanyBlock1 h1{
+       font-size: 15px;
+    }
+    .CompanyBlock1 button{
+       font-size: 16px;
+    }
+    .CompanyBlock2{
+        margin-top: -927px;
+        margin-left: -360px;
+        width: 150px;
+    }
+    .CompanyBlock2 button{
+       font-size: 16px;
+    }
+    .CompanyBlock3{
+        margin-top: -925px;
+        margin-left: -460px;
+    }
+    .CompanyBlock3 h1{
+       font-size: 15px;
+    }
+    .CompanyBlock3 p{
+       font-size: 13px;
+       
+    }
+    .CompanyPricingContactContainer hr{
+        width: 96.8%;
+        margin-left: 10px;
+    }
+    .ImgBlock2 img{
+        margin-left: -60px;
+    }
+    .PInBlock{
+        margin-left:-60px;
+    }
+    .Button1InContainer{
+        margin-left: -520px;
+        margin-top: -1030px;
+    }
+    .Button2InContainer{
+        margin-left: -520px;
+        margin-top: -1030px;
+    }
+}

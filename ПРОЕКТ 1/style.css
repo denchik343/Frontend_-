@@ -1,0 +1,1662 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+    body{
+        min-height: 7800px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+}
+.sectionA img{
+    width: 80px;
+    transform: rotate(45deg);  
+}
+.sectionA h1{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.sectionA{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 80px;
+    display: flex;
+}
+.sectionB{
+    margin-left: 430px;
+    display: flex;
+    gap: 20px;
+}
+.sectionB a{
+    font-size: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+.sectionB button{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.sectionB button:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+.sectionC{
+    position: relative;
+    margin-top: 55px;
+    margin-left: 70px;
+    margin-right: 80px;
+}
+.sectionC h1{
+    font-size:70px;
+}
+.sectionC p{
+    font-size:large ;
+}
+.sectionC button{
+    font-size: large;
+    width: 250px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.sectionC button:hover{
+    color: #000000;
+    background-color: #fff;
+}
+.sectionC img{
+    position: absolute;
+    width: 520px;
+    left: 820px;
+    top: -6px;
+}
+.img2 img{
+    width: 93%;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.text{
+    display: flex;
+    margin-left: 68px;
+    margin-top: 160px;
+    
+}
+.text h1{
+    width: 160px;
+    font-size:40px;
+    height: 50px;
+    padding-left: 12px;
+    background-color: rgb(189, 255, 89);
+    border-radius: 10px;
+}
+.text p{
+    font-size: large;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.card1{
+    padding: 20px;
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 560px;
+    margin-top: 150px;
+    margin-left: 68px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.card1 h1{
+       font-size:40px;
+}
+.card1 button{
+    position: absolute;
+    font-size: 30px;
+    top: 215px;
+    left: 70px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+
+}
+.card1 i{
+    background-color: black;
+    color: rgb(189, 255, 89);
+    font-size: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 210px;
+}
+.card1 img{
+    position: absolute;
+    left: 262px;
+    bottom: 50px;
+    width: 280px;
+}
+.h11{
+     background-color: rgb(189, 255, 89);
+     width: 242px;
+     padding-left: 5px;
+      border: 1px solid  rgb(189, 255, 89);
+      border-radius: 10px;
+      
+}
+.h12{
+     background-color: rgb(189, 255, 89);
+     width: 220px;
+     padding-left: 5px;
+      border: 1px solid  rgb(189, 255, 89);
+      border-radius:10px ;
+}
+
+.card2{
+    padding: 20px;
+    position: relative;
+    border: 1px solid rgb(27, 26, 26);
+    height: 315px;
+    width: 560px;
+    margin-top: 145px;
+    margin-left: 68px;
+    background-color: rgb(28, 27, 36);
+    border-radius: 40px;
+}
+.card2 h1{
+    font-size:40px;
+}
+.card2 button{
+    position: absolute;
+    font-size: 30px;
+    top: 215px;
+    left: 70px;
+    color: white;
+    border: none;
+    background-color: rgb(28, 27, 36);
+}
+.card2 i{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 210px;
+}
+.card2 img{
+    position: absolute;
+    left: 262px;
+    bottom:30px;
+    width: 270px;
+}
+.h21{
+     background-color: rgb(255, 255, 255);
+     width: 222px;
+     padding-left: 5px;
+      border: 1px solid  rgb(255, 255, 255);
+      border-radius: 10px;
+      
+}
+.h22{
+     background-color: rgb(255, 255, 255);
+     width: 182px;
+     padding-left: 5px;
+      border: 1px solid  rgb(255, 255, 255);
+      border-radius:10px ;
+}
+.cards3{
+    padding: 20px;
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 560px;
+    margin-top: 138px;
+    margin-left: 68px;
+    background-color:rgb(189, 255, 89);
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.card3 h1{
+       font-size:40px;
+}
+.card3 button{
+    position: absolute;
+    font-size: 30px;
+    top: 215px;
+    left: 70px;
+    border: none;
+     background-color:rgb(189, 255, 89);
+}
+.card3 i{
+    background-color: black;
+    color: rgb(189, 255, 89);
+    font-size: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 210px;
+}
+.card3 img{
+    position: absolute;
+    left: 262px;
+    bottom: 25px;
+    width: 280px;
+}
+.h31{
+     background-color: rgb(255, 255, 255);
+     width: 145px;
+     padding-left: 5px;
+      border: 1px solid  rgb(255, 255, 255);
+      border-radius: 10px;
+      
+}
+.h32{
+     background-color: rgb(255, 255, 255);
+     width: 153px;
+     padding-left: 5px;
+      border: 1px solid  rgb(255, 255, 255);
+      border-radius:10px ;
+}
+
+.cards4{
+    padding: 20px;
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 560px;
+    margin-top: 150px;
+    margin-left: 40px;
+    background-color: rgb(189, 255, 89);
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.card4 h1{
+       font-size:40px;
+}
+.card4 button{
+    position: absolute;
+    font-size: 30px;
+    top: 210px;
+    left: 70px;
+    border: none;
+     background-color: rgb(189, 255, 89);
+}
+.card4 i{
+    background-color: black;
+    color: rgb(189, 255, 89);
+    font-size: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 210px;
+}
+.card4 img{
+    position: absolute;
+    left: 262px;
+    bottom: 50px;
+    width: 280px;
+}
+.h41{
+     background-color: rgb(255, 255, 255);
+     width: 223px;
+     padding-left: 5px;
+      border: 1px solid  rgb(255, 255, 255);
+      border-radius: 10px;
+      
+}
+.h42{
+     background-color: rgb(255, 255, 255);
+     width: 197px;
+     padding-left: 5px;
+      border: 1px solid  rgb(255, 255, 255);
+      border-radius:10px ;
+}
+
+.cards5{
+    position: absolute;
+    top: 177px;
+    padding: 20px;
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 560px;
+    margin-top: 150px;
+    margin-left: -20px;
+    background-color:  rgb(243, 243, 243);
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.card5 h1{
+       font-size:40px;
+}
+.card5 button{
+    position: absolute;
+    font-size: 30px;
+    top: 210px;
+    left: 70px;
+    border: none;
+     background-color:  rgb(243, 243, 243);
+}
+.card5 i{
+    background-color: black;
+    color: rgb(189, 255, 89);
+    font-size: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 210px;
+}
+.card5 img{
+    position: absolute;
+    left: 262px;
+    bottom: 30px;
+    width: 280px;
+}
+.h51{
+     background-color: rgb(189, 255, 89);
+     width: 105px;
+     padding-left: 5px;
+      border: 1px solid  rgb(189, 255, 89);
+      border-radius: 10px;
+      
+}
+.h52{
+     background-color: rgb(189, 255, 89);
+     width: 185px;
+     padding-left: 5px;
+      border: 1px solid  rgb(189, 255, 89);
+      border-radius:10px ;
+}
+
+.cards6{
+    position: absolute;
+    top: 177px;
+    padding: 20px;
+    position: relative;
+    border: 1px solid black;
+    height: 310px;
+    width: 560px;
+    margin-top: 150px;
+    margin-left: -20px;
+    background-color:  rgb(28, 27, 36);
+    border-radius: 40px;
+    
+}
+.card6 h1{
+       font-size:40px;
+}
+.card6 button{
+    position: absolute;
+    font-size: 30px;
+    top: 210px;
+    left: 70px;
+    color: white;
+    border: none;
+     background-color:  rgb(28, 27, 36);
+}
+.card6 i{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 210px;
+}
+.card6 img{
+    position: absolute;
+    left: 262px;
+    bottom: 50px;
+    width: 280px;
+}
+.h61{
+     background-color: rgb(189, 255, 89);
+     width: 227px;
+     padding-left: 5px;
+      border: 1px solid  rgb(189, 255, 89);
+      border-radius: 10px;
+}
+.h62{
+     background-color: rgb(189, 255, 89);
+     width: 150px;
+     padding-left: 5px;
+      border: 1px solid  rgb(189, 255, 89);
+      border-radius:10px ;
+}
+
+.cardss2{
+    position: absolute;
+    left: 790px;
+    top: 930px;
+}
+.CaseStudies{
+    width: 90%;
+    height: 341px;
+    margin-top: 100px;
+    margin-left: 68px;
+    border-radius: 40px;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+}
+.CaseStudies h1{
+    font-size: 40px;
+}
+.CaseStudies p{
+    padding-top: 40px;
+    font-size: 24px;
+}
+.CaseStudies button{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    margin-top: 35px;
+}
+.CaseStudies button:hover{
+    color: #000000;
+    background-color: #fff;
+}
+.CaseStudies img{
+    position: absolute;
+    width: 360px;
+    left: 860px;
+    top: 2354px;
+}
+.text2{
+    display: flex;
+    margin-left: 68px;
+    margin-top: 160px;
+}
+.text2 h1{
+    position: absolute;
+    width: 240px;
+    font-size:40px;
+    height: 50px;
+    padding-left: 12px;
+    background-color: rgb(189, 255, 89);
+    border-radius: 10px;
+}
+.text2 p{
+    font-size: large;
+    margin-left: 280px;
+    margin-top: 5px;
+}
+
+.case-studies-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000; 
+  padding: 20px;
+  border-radius: 40px;
+  color: #fff;
+  width: 90%; 
+  height: 341px;
+  box-sizing: border-box;
+  margin-left: 68px; 
+  margin-top: 120px;
+}
+
+.case-study {
+  width: 30%; 
+  padding: 10px;
+  border-right: 4px solid #ffffff; 
+  box-sizing: border-box; 
+  
+}
+#case-study1{
+    font-size: 20px;
+    padding: 50px;
+}
+#case-study2{
+    font-size: 20px;
+     padding: 50px;
+}
+#case-study3 {
+     font-size: 20px;
+      padding: 50px;
+    border-right: none; 
+}
+#case-study1 i{
+    position: absolute;
+    color:  rgb(189, 255, 89);
+    font-size: 30px;
+    top: 3308px;
+     left: 124px;
+}
+.button1{
+    position: absolute;
+    color:  rgb(189, 255, 89);
+    font-size: 20px;
+    background-color: #000000;
+    border: none;
+    top: 3310px;
+    left: 160px;
+}
+
+#case-study2 i{
+    position: absolute;
+    color:  rgb(189, 255, 89);
+    font-size: 30px;
+    top: 3308px;
+    left: 575px;
+}
+.button2{
+    position: absolute;
+    color:  rgb(189, 255, 89);
+    font-size: 20px;
+    background-color: #000000;
+    border: none;
+    top: 3310px;
+    left: 611px;
+}
+
+#case-study3 i{
+     position: absolute;
+    color:  rgb(189, 255, 89);
+    font-size: 30px;
+    top: 3306px;
+    left: 1024px;
+    
+}
+.button3{
+    color:  rgb(189, 255, 89);
+    font-size: 20px;
+    position: absolute;
+    top: 3310px;
+    left: 1060px;
+    background-color: #000000;
+    border: none;
+}
+
+.OurWorkingProcess h1{
+    position: absolute;
+    width: 370px;
+    font-size:40px;
+    height: 50px;
+    padding-left: 12px;
+    background-color: rgb(189, 255, 89);
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 68px;
+}
+.OurWorkingProcess p{
+    position: absolute;
+    font-size: large;
+    left: 480px;
+    margin-top: 125px;
+}
+
+.OurWorkingProcessContainer{
+    position: absolute;
+    top: 3640px;
+    left: 68px;
+    border-radius: 40px;
+    width: 1320px;
+    height: 250px;
+    padding: 20px;
+    border: 1px solid rgb(189, 255, 89);
+    background-color: rgb(189, 255, 89);
+box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.OurWorkingProcessContainer h1{
+  position: absolute;
+  left: 100px;
+  bottom: 162px;
+  font-size:40px ;
+}
+.p1{
+    font-size: 65px;
+}
+.OurWorkingProcessContainer hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.p2{
+    font-size: 25px;
+}
+.h1icon{
+   border: 1px solid black;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   border-radius: 50%;
+   background-color:rgb(243, 243, 243) ;
+   margin-left: 1150px; 
+}
+
+.container2{
+    border: 1px solid black;
+    width: 1320px;
+    height: 125px;
+    border-radius: 40px;
+    margin-left: -20px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 70px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.container2 p{
+     padding: 20px;
+}
+.container2 h1{
+    position: absolute;
+    top: 330px;
+}
+
+.container3{
+    border: 1px solid black;
+    width: 1320px;
+    height: 125px;
+    border-radius: 40px;
+    margin-left: -20px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 50px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.container3 p{
+     padding: 20px;
+}
+.container3 h1{
+    position: absolute;
+    top: 505px;
+}
+.container4{
+    border: 1px solid black;
+    width: 1320px;
+    height: 125px;
+    border-radius: 40px;
+    margin-left: -20px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 50px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.container4 p{
+     padding: 20px;
+}
+.container4 h1{
+    position: absolute;
+    top: 680px;
+}
+.container5{
+    border: 1px solid black;
+    width: 1320px;
+    height: 125px;
+    border-radius: 40px;
+    margin-left: -20px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 50px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.container5 p{
+     padding: 20px;
+}
+.container5 h1{
+    position: absolute;
+    top: 855px;
+}
+.container6{
+    border: 1px solid black;
+    width: 1320px;
+    height: 125px;
+    border-radius: 40px;
+    margin-left: -20px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 50px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.container6 p{
+     padding: 20px;
+}
+.container6 h1{
+    position: absolute;
+    top: 1030px;
+}
+
+.team h1{
+    background-color: rgb(189, 255, 89);
+    font-size:40px;
+    width: 110px;
+    padding: 10px;
+    min-height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 4920px;
+    margin-left: 68px;
+}
+.TeamP1{
+    position: absolute;
+    top: 4933px;
+    margin-left: 220px;
+    font-size: 20px; 
+}
+
+
+
+
+.TeamContainer1 {
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 1700px;
+    margin-left: 68px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.TeamContainer1 p{
+    position: absolute;
+    top: 5085px;
+}
+.TeamContainer1 hr{
+    margin-top: 130px;
+    width: 340px;
+    margin-left: 8px;
+}
+.TeamP2{
+    margin-top: 25px;
+    margin-left:317px;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 8px;
+    
+    background-color: black;
+    color:  rgb(189, 255, 89);
+}
+.TeamP3{
+    font-size: 25px;
+    margin-left: 135px;
+    margin-top: 80px;
+}
+.TeamP4{
+   margin-top: 180px;
+   margin-left: 6px;
+   font-size: 18px;
+}
+.TeamP5{
+   margin-top: 110px;
+   margin-left: 132px;
+   font-size: 20px;
+}
+.TeamContainer1 img{
+    width: 120px;
+    position: absolute;
+    top: 5100px;
+    left: 83px;
+}
+
+
+.TeamContainer2 {
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 68px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.TeamContainer2 hr{
+    margin-top: 86px;
+    width: 340px;
+    margin-left: 8px;
+}
+.TeamP6{
+    margin-top: 3px;
+    margin-left:315px;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 8px;
+    
+    background-color: black;
+    color:  rgb(189, 255, 89);
+}
+.TeamP7{
+    position: absolute;
+    top: 5515px;
+    font-size: 25px;
+    left: 225px;
+}
+.TeamP8{
+   margin-top: 30px;
+   margin-left: 6px;
+   font-size: 18px;
+}
+.TeamP9{
+    position: absolute;
+    top: 5545px;
+    font-size: 20px;
+    left: 225px;
+}
+.TeamContainer2 img{
+    width: 130px;
+    position: absolute;
+    top: 5455px;
+    left: 83px;
+}
+
+
+.TeamContainer3 {
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 68px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.TeamContainer3 hr{
+    margin-top: 86px;
+    width: 340px;
+    margin-left: 8px;
+}
+.TeamP10{
+    margin-top: 3px;
+    margin-left:315px;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 8px;
+    
+    background-color: black;
+    color:  rgb(189, 255, 89);
+}
+.TeamP11{
+    position: absolute;
+    font-size: 25px;
+    left: 225px;
+    top: 120px;
+}
+.TeamP12{
+   margin-top: 30px;
+   margin-left: 6px;
+   font-size: 18px;
+}
+.TeamP13{
+    position: absolute;
+    font-size: 20px;
+    left: 225px;
+    top: 152px;
+}
+.TeamContainer3 img{
+    width: 130px;
+    position: absolute;
+    top: 62px;
+    left: 83px;
+}
+
+
+.TeamContainer4 {
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 68px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.TeamContainer4 hr{
+    margin-top: 86px;
+    width: 340px;
+    margin-left: 8px;
+}
+.TeamP14{
+    margin-top: 3px;
+    margin-left:315px;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 8px;
+    
+    background-color: black;
+    color:  rgb(189, 255, 89);
+}
+.TeamP15{
+    position: absolute;
+    font-size: 25px;
+    left: 225px;
+    top: 450px;
+    
+}
+.TeamP16{
+   margin-top: 30px;
+   margin-left: 6px;
+   font-size: 18px;
+}
+.TeamP17{
+    position: absolute;
+    font-size: 20px;
+    left: 225px;
+    top: 480px;
+    
+}
+.TeamContainer4 img{
+    width: 130px;
+    position: absolute;
+    left: 83px;
+    top: 410px;
+}
+.block2{
+   width: 500px;
+   position: absolute;
+   left: 460px;
+   margin-top: -701px;
+
+}
+
+
+.TeamContainer5 {
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 68px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.TeamContainer5 hr{
+    margin-top: 86px;
+    width: 340px;
+    margin-left: 8px;
+}
+.TeamP18{
+    margin-top: 3px;
+    margin-left:315px;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 8px;
+    
+    background-color: black;
+    color:  rgb(189, 255, 89);
+}
+.TeamP19{
+    position: absolute;
+    font-size: 25px;
+    left: 225px;
+    top: 120px;
+}
+.TeamP20{
+   margin-top: 30px;
+   margin-left: 6px;
+   font-size: 18px;
+}
+.TeamP21{
+    position: absolute;
+    font-size: 20px;
+    left: 225px;
+    top: 150px;
+}
+.TeamContainer5 img{
+    width: 130px;
+    position: absolute;
+    left: 83px;
+    top: 65px;
+}
+
+
+.TeamContainer6 {
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 68px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: -1px 14px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.TeamContainer6 hr{
+    margin-top: 86px;
+    width: 340px;
+    margin-left: 8px;
+}
+.TeamP22{
+    margin-top: 3px;
+    margin-left:315px;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 8px;
+    
+    background-color: black;
+    color:  rgb(189, 255, 89);
+}
+.TeamP23{
+    position: absolute;
+    font-size: 25px;
+    left: 225px;
+    top: 480px;
+}
+.TeamP24{
+   margin-top: 30px;
+   margin-left: 6px;
+   font-size: 18px;
+}
+.TeamP25{
+    position: absolute;
+    font-size: 20px;
+    left: 225px;
+    top: 504px;
+}
+.TeamContainer6 img{
+    width: 130px;
+    position: absolute;
+    left: 83px;
+    top: 412px;
+}
+.block3{
+    width: 500px;
+    position: absolute;
+    left: 920px;
+    margin-top: -701px;
+}
+
+.team button{
+    border: 1px solid black;
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000000;
+    position: absolute;
+    top: 5800px;
+    left: 1188px;
+}
+.team button:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+
+
+
+
+.text3{
+    position: absolute;
+    top: 5890px;
+    left: 68px;
+}
+.text3 h1{
+    background-color: rgb(189, 255, 89) ;
+    width: 215px;
+    border-radius: 10px;
+    padding: 5px;
+     font-size:40px;
+}
+.text3 p{
+    font-size: 20px;
+    margin-left: 260px;
+    margin-top: -52px;
+}
+
+.slider-container {
+    width: 90%;
+    margin-top: 300px;
+    margin-left: 68px;
+    overflow: hidden;
+    border-radius: 40px; 
+    background-color: #121212; 
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    padding: 40px; 
+    box-sizing: border-box;
+    opacity: 0.7; 
+    transition: opacity 0.3s ease; 
+}
+
+
+.slide.active {
+    opacity: 1;
+}
+
+.testimonial {
+    padding: 30px;
+    border: 2px solid  rgb(189, 255, 89); 
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    position: relative; 
+    background-color: #1E1E1E; 
+}
+
+.testimonial::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 15px;
+    border-style: solid;
+    border-color:  rgb(189, 255, 89) transparent transparent transparent;
+}
+
+.author p {
+    margin: 5px 0;
+}
+.author{
+    position: absolute;
+    top: 150px;
+    left: 900px;
+}
+.name{
+    color: rgb(189, 255, 89) ;
+}
+.post{
+    color: #fff;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: #777; 
+}
+
+.slider-controls button {
+    background: none;
+    border: none;
+    color: #777;
+    font-size: 30px; 
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+
+.slider-controls button:hover {
+    color: #A9A9A9;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color:  rgb(189, 255, 89); 
+}
+.text4{
+    margin-left: 68px;
+}
+.text4 h1{
+    border: 1px solid  rgb(189, 255, 89);
+    background-color:  rgb(189, 255, 89);
+    width: 200px;
+    border-radius: 10px;
+    font-size: 40px;
+    padding-left: 8px;
+    margin-top: 180px;  
+}
+.text4 p{
+    margin-left: 240px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.ContactContainer{
+    margin-top: 100px;
+    padding: 80px;
+    width: 90%;
+    height: 650px;
+    margin-left: 68px;
+    border-radius: 40px;
+    background-color: rgb(243, 243, 243);
+}
+#Input1{
+    transform: scale(2);
+    margin-left: 10px;
+}
+.ContactContainer label{
+    margin-left: 10px;
+}
+#Input2{
+    transform: scale(2);
+    margin-left: 30px;
+}
+
+.ContactContainer form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+.ContactContainer form input,
+.ContactContainer form textarea{
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid #242424;
+    font-size: 16px;
+    color: #242424;
+}
+.ContactContainer form input:focus,
+.ContactContainer form textarea:focus{
+    outline: none;
+     border: 2px solid #242424;
+}
+.ContactContainer form textarea{
+    resize: vertical;
+}
+
+.ContactContainer form button{
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #242424;
+    color: #fff;
+    font-size:16px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.ContactContainer img{
+    width: 320px;
+    position: absolute;
+    left: 1069px;
+    top: 6720px;
+}
+
+
+.ContactContainer2{
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 68px;
+    border-radius: 40px;
+    margin-top: 140px;
+    padding: 40px;
+    background-color:  rgb(28, 27, 36);
+    height: 480px;
+}
+.ContactMenu{
+    display: flex;
+    color: #fff;
+    
+}
+.ContactMenu img{
+    width: 40px;
+}
+.ContactUsA{
+    display: flex;
+    gap: 40px;
+    margin-left: 400px;
+}
+.ContactUsA a{
+    color: #fff;
+    font-size: 18px;
+    margin-top: -25px;
+}
+.ContactUsA img{
+    position: absolute;
+    left: 1223px;
+    top: 7510px;
+    width:140px;
+    text-align: center;
+}
+.ContainerContacts{
+    color: #000000;
+    border: 1px solid rgb(189, 255, 89);
+    background-color:rgb(189, 255, 89);
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Email{
+    color: #fff;
+    margin-top: 25px;
+}
+.Phone{
+    color: #fff;
+    margin-top: 25px;
+}
+.Address{
+    color: #fff;
+    margin-top: 25px;
+}
+.ContactForm2{
+    margin-left: 540px;
+    height: 180px;
+    margin-top: -185px;
+    border-radius: 15px;
+    padding: 60px;
+    width: 700px;
+    background-color:  rgb(40, 39, 48);
+}
+.ContactForm2 input{
+    width: 250px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000000;
+    border: 1px solid white;
+}
+.ContactForm2 button{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 255, 89);
+    background-color:rgb(189, 255, 89);
+    margin-left: 70px;
+}
+.ContactForm2 button:hover{
+    transform: scale(1.1)
+}
+.PrivatyPolicy{
+    display: flex ;
+    gap: 30px;
+    color: #fff;
+    margin-top: 43px;
+}
+.PrivatyPolicy a{
+    color: #fff;
+}
+
+
+@media  (min-width:601px) and (max-width:1024px) {
+    .sectionB{
+        margin-left: 335px;
+    }
+    .sectionB a{
+        width: 95px;
+    }
+    .img2 {
+        width: 1460px;
+    }
+    .sectionC h1{
+        width: 900px;
+    }
+    .text h1{
+        width: 200px;
+        padding-right: 10px;
+    }
+    .text p{
+        width: 700px;
+    }
+    .cardss2{
+        margin-top: 5px;
+        margin-left: -5px;
+    }
+    .CaseStudies{
+        width: 1310px;
+    }
+    .CaseStudies img{
+        margin-top: 5px;
+    }
+    .case-studies-container{
+        width: 1310px;
+    }
+    .button3{
+        width: 105px;
+    }
+    .TeamP2{
+        margin-top: 55px;
+    }
+    .TeamP4{
+        margin-top: 215px;
+    }
+    .TeamContainer1 img{
+        margin-top: 30px;
+    }
+     .TeamContainer2 img{
+        margin-top: 27px;
+    }
+    .slider-container{
+        width:1100px;
+        margin-left: 180px;
+    }
+    .testimonial{
+        margin-left: 50px;
+    }
+    .author{
+        width: 250px;
+        margin-left: -100px;
+    }
+    .ContactContainer{
+       width: 1320px;
+    }
+    .ContactContainer img{
+       width: 300px;
+       margin-top: 40px;
+       margin-left: 17px;
+    }
+    .ContactContainer2{
+        width: 1320px;
+    }
+}
+
+
+
+@media    (min-width:0px) and (max-width:601px){
+    .sectionB{
+        margin-left: 250px;
+    }
+    .sectionB a{
+        width: 95px;
+    }
+    .sectionC img{
+        margin-left: -90px;
+    }
+    .sectionC h1{
+        width: 600px;
+    }
+    .sectionC p{
+        width: 400px;
+    }
+    .img2 {
+        width: 1380px;
+    }
+    .text h1{
+        width: 160px;
+        padding-right: 10px;
+    }
+    .text p{
+        position: absolute;
+        left: 180px;
+        width: 500px;
+    }
+    .cardss2{
+        margin-top: 5px;
+        margin-left: -90px;
+    }
+    .CaseStudies{
+        width: 1230px;
+    }
+    .CaseStudies img{
+        margin-top: 5px;
+    }
+    .text2 {
+        width: 750px;
+    }
+    .text2 h1{
+        width: 235px;
+    }
+    .case-studies-container{
+        width: 1230px;
+    }
+    .case-studies-container p{
+        font-size: 18px;
+    }
+    .button2{
+        width: 105px;
+        margin-left: -30px;
+    }
+    #case-study2 i{
+        margin-left: -30px;
+    }
+    .button3{
+        width: 105px;
+        margin-left: -60px;
+    }
+     #case-study3 i{
+        margin-left: -60px;
+    }
+    .OurWorkingProcess p{
+        width: 300px;
+    }
+    .OurWorkingProcessContainer{
+        width: 1230px;
+    }
+    .p2{
+        font-size: 23px;
+        width: 1200px;
+    }
+    .p1{
+        margin-top: 6px;
+    }
+    .container2{
+         width: 1230px;
+    }
+    .container3{
+         width: 1230px;
+    }
+    .container4{
+         width: 1230px;
+    }
+    .container5{
+         width: 1230px;
+    }
+    .container6{
+         width: 1230px;
+    }
+    .h1icon{
+        margin-left:1060px;
+    }
+    .TeamP1{
+        width: 450px;
+    }
+    .TeamP2{
+        margin-top: 30px;
+    }
+    .TeamP4{
+        margin-top: 190px;
+    }
+    .TeamContainer1 img{
+        margin-top: 5px;
+    }
+     .TeamContainer2 img{
+        margin-top: 5px;
+    }
+    .TeamContainer3{
+        margin-left: 18px;
+    }
+    .TeamContainer3 img{
+        margin-left: -50px;
+    }
+    .TeamP11{
+        margin-left: -45px;
+    }
+    .TeamP13{
+        margin-left: -45px;
+    }
+    .TeamContainer4{
+        margin-left: 18px;
+    }
+    .TeamContainer4 img{
+        margin-left: -50px;
+    }
+    .TeamP15{
+        margin-left: -45px;
+    }
+    .TeamP17{
+        margin-left: -45px;
+    }
+    .TeamContainer5{
+        margin-left: -30px;
+    }
+     .TeamContainer5 img{
+        margin-left: -100px;
+    }
+    .TeamP19{
+        margin-left: -90px;
+    }
+    .TeamP21{
+        margin-left: -90px;
+    }
+    .TeamContainer6{
+        margin-left: -30px;
+    }
+     .TeamContainer6 img{
+        margin-left: -90px;
+    }
+     .TeamP23{
+        margin-left: -85px;
+    }
+    .TeamP25{
+        margin-left: -85px;
+    }
+    .team button{
+        margin-left: -100px;
+    }
+    .text3{
+        width: 800px;
+    }
+    .slider-container{
+        width:1100px;
+        margin-left: 130px;
+    }
+    .author{
+        width: 250px;
+        margin-left: -100px;
+    }
+    .text4 {
+        width: 600px;
+    }
+    .ContactContainer{
+       width: 1230px;
+    }
+    .ContactContainer img{
+       width: 300px;
+       margin-top: 40px;
+       margin-left: -72px;
+    }
+    .ContactContainer2{
+        width: 1230px;
+    }
+    .ContactMenu{
+        margin-left: 100px;
+    }
+    .ContactContainer2 img{
+        margin-left: -100px;
+    }
+    .ContactForm2{
+        width: 790px;
+        margin-left: 350px;
+    }
+}
